@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-x-big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>Status</title>
+<base target="mainframe">
+
+<STYLE TYPE="text/css">
+	TD {font-family:"標楷體";
+		font-size:12pt}
+</STYLE>
+</head>
+
+<body background="images/bg1.gif">
+<table width="100%">
+  <tr>
+    <td width="50pt">日期：</td>           
+	<td>
+	<script Language="JavaScript">             
+	<!--             
+	var today = new Date();             
+	//var strDate = ( "19" + today.getYear() + " 年 " + (today.getMonth() + 1) + " 月 " + today.getDate() + " 日 ");             
+	var strDate = ( today.getFullYear() + " 年 " + (today.getMonth() + 1) + " 月 " + today.getDate() + " 日 ");          
+	var n_day = today.getDay();             
+	switch (n_day)             
+	{             
+	case 0:{             
+	strDate = strDate + "星期日"             
+	}break;             
+	case 1:{             
+	strDate = strDate + "星期一"             
+	}break;             
+	case 2:{             
+	strDate = strDate + "星期二"             
+	}break;             
+	case 3:{             
+	strDate = strDate + "星期三"             
+	}break;              
+	case 4:{             
+	strDate = strDate + "星期四"             
+	}break;             
+	case 5:{             
+	strDate = strDate + "星期五"             
+	}break;             
+	case 6:{             
+	strDate = strDate + "星期六"             
+	}break;             
+	case 7:{             
+	strDate = strDate + "星期日"             
+	}break;             
+	}             
+	document.write(strDate);             
+	// End -->             
+	</script>
+	</td>  
+</tr>             
+  <tr>             
+    <td width="50pt">時間：</td>
+    <td>
+    <applet code="billsClock.class" width="66" height="62" ALIGN="MIDDLE">                 
+      <param name="BGCOLOR" value="000050">                 
+      <param name="FACECOLOR" value="000050">                 
+      <param name="SWEEPCOLOR" value="FF0000">                 
+      <param name="MINUTECOLOR" value="FFFF00">                 
+      <param name="HOURCOLOR" value="FFFF00">                 
+      <param name="TEXTCOLOR" value="000050">                 
+      <param name="CASECOLOR" value="000050">                 
+      <param name="TRIMCOLOR" value="C0C0C0">                 
+      <param name="LOCALONLY" value="1">                 
+    </applet><p> 
+    <script language="JavaScript">      
+	<!--            
+	var d=new Date();            
+	var Hours, Minutes;            
+    var ampm;	            
+	            
+	// Get the Hours, and determine if its morning, afternoon or night            
+	if ( d.getHours() < 12 )	{            
+		ampm='上午';            
+		Hours = d.getHours();            
+		}            
+	else if ( d.getHours() >= 12 && d.getHours() <= 18 )	{            
+		ampm='下午';            
+		if ( d.getHours() > 12 )            
+			Hours = d.getHours() - 12;            
+		else            
+			Hours = d.getHours()            
+		}            
+	else	{            
+		ampm='晚上';            
+		Hours = d.getHours() - 12;            
+		}            
+            
+	// Get the minutes, append leading 0 if less than 10, e.g. 05            
+	if ( d.getMinutes() < 10 )            
+		Minutes = '0' + d.getMinutes();            
+	else            
+		Minutes = d.getMinutes();            
+            
+	// Construct the message text with the time		            
+	var msg = (ampm + Hours + ':' + Minutes);            
+            
+	// Print the time            
+	document.write( msg );            
+    //-->            
+	</script>           
+    </td>                 
+  </tr>                 
+</table> 
+</body>                    
+</html>                    

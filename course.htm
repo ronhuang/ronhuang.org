@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+  <HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=big5">
+    <SCRIPT LANGUAGE="JavaScript" FOR="window" EVENT="onload">
+      var xmlDso = xmldso.XMLDocument;
+      xmlDso.load("course3.xml");
+    </SCRIPT>
+	<script LANGUAGE="VBScript">
+ 	  'Declare and initialize some variables.
+ 	  Public wavePhase
+ 	  wavePhase = 0
+	
+ 	  Sub animateWave()
+ 	     'Increase wavePhase by 10, but never exceed 100.
+ 	     wavePhase = (wavePhase + 10) mod 100
+ 	     wavyText.filters(0).phase = wavePhase
+	   End Sub
+	
+	   Sub window_onload()
+    	  timerID = window.setInterval("animateWave", 5, "VBScript")
+	   End Sub
+	</script>
+	<script language="JavaScript">
+    	function goDetail()
+    	{
+    		var currName1 = window.event.srcElement.innerText;
+    		var rootElem = xmldso.XMLDocument.documentElement;
+    		var rootChild = rootElem.childNodes;
+    		var numFirst = rootChild.length;
+    		for (i = 1; i < numFirst; i++)
+    		{
+    			var rootGchild = rootChild.item(i).childNodes;
+    			var numSecond = rootGchild.length;
+    			for (j = 1; j < numSecond; j++)
+    			{
+    				var currElem = rootGchild.item(j).childNodes;
+    				var currName2 = currElem.item(0).text;
+    				if ((currName1 == currName2) && (currName1 != ""))
+    				{
+    					Cname.innerText = "課程名稱：" + currName2;
+    					Tname.innerText = "老師名稱：" + currElem.item(2).text;
+    					Unit.innerText = "學分數：" + currElem.item(3).text;
+    					dMenu.style.backgroundColor = currElem.item(1).text;
+    					dMenu.style.visibility = "";
+    					window.event.srcElement.style.color = currElem.item(1).text;
+    					return;
+    				}
+    			}
+    		}
+    	}
+    	function gone()
+    	{
+    		dMenu.style.visibility = "hidden";
+    		window.event.srcElement.style.color = "";
+    	}
+
+    </script>
+
+    <STYLE Type="text/css">
+		TD { font-family:"標楷體";
+			 font-size:12pt}
+	</STYLE>
+
+    <TITLE>功課表</TITLE>
+  </HEAD>
+
+  <BODY background="images/bg1.gif">
+	<center>
+		<div ID="wavyText" ; STYLE="filter: Wave(Add=0, Freq=2, LightStrength=0, Phase=0, Strength=6); font-size: 36; font-family: 標楷體; height: 60; width: 500">
+  			<p align="center">我目前的功課表</p>
+		</div>
+	</center>
+
+    <OBJECT WIDTH="0" HEIGHT="0"
+      CLASSID="clsid:550dda30-0541-11d2-9ca9-0060b0ec3d39"
+      ID="xmldso">
+    </OBJECT>
+
+    <TABLE DATASRC=#xmldso BORDER="1" CELLSPACING="5" CELLPADDING="2" bordercolor="#008000" onMouseOver="goDetail()" onMouseOut="gone()">
+      <TR ALIGN="center">
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class0">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class1">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class2">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class3">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class4">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class5">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class6">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class7">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+      	<TD nowrap align="center">
+      		<TABLE DATASRC=#xmldso DATAFLD="class8">
+      			<TR>
+      				<TD><DIV DATAFLD="name"></TD>
+      			</TR>
+        	</TABLE>
+        </TD>      
+
+      </TR>
+    </TABLE>
+    <BR>
+    <TABLE ID="dMenu" BORDER="1" CELLSPACING="0" CELLPADDING="0" STYLE="visibility:hidden">
+    	<TR ALIGN="center">
+    		<TD ID="Cname"></TD>
+    		<TD ID="Tname"></TD>
+    		<TD ID="Unit"></TD>
+    	</TR>
+    </TABLE>
+    <div align="right" style="position:absolute; bottom:30; right:30 ;z-index:-1">
+	  <dd><img src="images/mickey01.gif" style="filter:Alpha(Opacity=30)" width="130" height="198"></dd>
+	</div>
+	<p align="right"><font color="#FF0080" size="1" face="Comic Sans MS">Updated since 2000/02/06</font></p> 
+
+  </BODY>
+
+</HTML>
