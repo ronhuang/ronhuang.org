@@ -137,6 +137,7 @@ body {
         background-repeat: no-repeat;
         background-position: center top;
         background-image: url(../images/shine.png);
+        background-color: {{ site.colors.mono.light }};
         }
         #inner_wrapper.no-bg {
             background-image: none;
