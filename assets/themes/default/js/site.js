@@ -625,10 +625,10 @@ jQuery(function($){
     };
     $.extend($.fn.rainbow, {
         defaults: {
-            defaultColor: '#000000',
+            defaultColor: '{{ site.colors.mono.dark }}',
             colorDuration: 100,
             unColorDuration: 500,
-            colors: ['#009ff7','#87d14b','#FF007C']
+            colors: ['{{ site.colors.highlights.blue }}','{{ site.colors.highlights.green }}','{{ site.colors.highlights.red }}']
         }
     });
 })(jQuery);
