@@ -4,33 +4,23 @@ require 'packr'
 require 'rake/clean'
 
 desc 'Build site with Jekyll'
-task :build => [:clean, :minify] do
+task :build => :clean do
   # compile site
   jekyll
+  minify
 end
 
-desc 'Start server with --auto'
-task :server => [:clean, :minify]  do
-  jekyll('--server --auto')
+desc 'Start server'
+task :server => :build do
+  # FIXME: use :build as prerequisite instead of :clean.
+  # because I need whatever generated in minify().
+  # however, this will run jekyll twice. :(
+  jekyll('--server')
 end
 
 desc 'Build and deploy'
 task :deploy => :build do
   sh 'rsync -rtzhavz _site/ ronhuang@ewok.ronhuang.org:http/nginx'
-end
-
-desc 'Minify JavaScript'
-task :minify do
-  # minify javascript
-  source = File.read('assets/themes/default/js/site.js')
-  minified = Packr.pack(source, :shrink_vars => true, :base62 => false)
-  header = /\/\*.*?\*\//m.match(source)
-
-  # inject header into minified javascript
-  File.open('assets/themes/default/js/site.min.js', 'w') do |combined|
-    combined.puts(header)
-    combined.write(minified)
-  end
 end
 
 desc 'Begin a new post'
@@ -69,8 +59,21 @@ end
 task :default => :server
 
 # clean deletes built copies
-CLEAN.include(['_site/','assets/themes/default/js/*.min.js'])
+CLEAN.include(['_site/'])
 
 def jekyll(opts = '')
   sh 'jekyll ' + opts
+end
+
+def minify()
+  # minify javascript
+  source = File.read('_site/assets/themes/default/js/site.js')
+  minified = Packr.pack(source, :shrink_vars => true, :base62 => false)
+  header = /\/\*.*?\*\//m.match(source)
+
+  # inject header into minified javascript
+  File.open('_site/assets/themes/default/js/site.min.js', 'w') do |combined|
+    combined.puts(header)
+    combined.write(minified)
+  end
 end
