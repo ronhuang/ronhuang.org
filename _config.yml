@@ -34,9 +34,9 @@ colors:
         green: '#87d14b'
         red: '#FF007C'
     mono:
-        dark: '#000000'
-        medium: '#777777'
-        light: '#FFFFFF'
+        dark: '#111122'
+        medium: '#555555'
+        light: '#888877'
     bg: '#EAF1F4'
 
 pygments: true
