@@ -339,32 +339,6 @@ nav#main_nav {
             margin-top: 0px;
             margin-bottom: 0px;
             }
-    div.slidey_title_wrapper {
-        position: absolute;
-        font-weight: bold;
-        font-size: 225pt;
-        overflow: hidden;
-        width: 100%;
-        left: 0px;
-        top: 35px;
-        color: {{ site.colors.mono.light }};
-        font-family: Helvetica, Arial, sans-serif;
-        letter-spacing: -1pt;
-        text-transform: none;
-        }
-        div.slidey_title {
-            width: 760px;
-            margin-left: auto;
-            margin-right: auto;
-            overflow: visible;
-            }
-            div.slidey_title span {
-                width: 140em;
-                display: block;
-                position: relative;
-                width: 3000px;
-                overflow: hidden;
-                }
      #content div#disqus_thread {
         margin-top: 80px;
         }
