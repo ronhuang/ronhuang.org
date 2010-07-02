@@ -338,6 +338,14 @@ nav#main_nav {
      #content article ol a {
         font-weight: normal;
         }
+     #content div#post_content {
+        min-height: 240px;
+        }
+     #content div#google_adsense {
+        float: right;
+        width: 120px;
+        margin-left: 15px;
+        }
     .projects header a,
     .about header a,
     .journal header a {
