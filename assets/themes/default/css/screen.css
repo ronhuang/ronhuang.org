@@ -60,11 +60,6 @@ table {
 
 /* globals */
 
-/* highlight colors */
-.projects { color: {{ site.colors.highlights.blue }} }
-.about { color: {{ site.colors.highlights.green }} }
-.journal { color: {{ site.colors.highlights.red }} }
-
 a {
     color: {{ site.colors.mono.dark }};
     text-decoration: none;
@@ -350,23 +345,20 @@ nav#main_nav {
         -webkit-transition: color 0.17s ease-in-out;
         }
     .projects a {
-        color: {{ site.colors.highlights.blue }};
-        border-color: {{ site.colors.highlights.blue }};
+        color: {{ site.colors.mono.dark }};
+        border-color: {{ site.colors.mono.dark }};
         }
         .projects header a { color: {{ site.colors.mono.dark }}; }
-        .projects header a:hover { color: {{ site.colors.highlights.blue }}; }
     .about a {
-        color: {{ site.colors.highlights.dark }};
-        border-color: {{ site.colors.highlights.dark }};
+        color: {{ site.colors.mono.dark }};
+        border-color: {{ site.colors.mono.dark }};
         }
         .about header a { color: {{ site.colors.mono.dark }}; }
-        .about header a:hover { color: {{ site.colors.highlights.green }}; }
     .journal a {
-        color: {{ site.colors.highlights.red }};
-        border-color: {{ site.colors.highlights.red }};
+        color: {{ site.colors.mono.dark }};
+        border-color: {{ site.colors.mono.dark }};
         }
         .journal header a { color: {{ site.colors.mono.dark }}; }
-        .journal header a:hover { color: {{ site.colors.highlights.red }}; }
      a:visited {
         color: {{ site.colors.mono.dark }};
         border-color: {{ site.colors.mono.dark }};
