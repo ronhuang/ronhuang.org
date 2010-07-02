@@ -219,12 +219,12 @@ nav#main_nav {
 
 #content {
     clear: both;
-    padding-left: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 113px;
     padding-bottom: 80px;
     position: relative;
     color: {{ site.colors.mono.dark }};
-    width: 640px;
     overflow: hidden;
     }
     ul code,
@@ -277,7 +277,6 @@ nav#main_nav {
         border-bottom: 0px;
         }
     #content article {
-        width: 560px;
         overflow: display;
         }
     #content article p,
@@ -312,9 +311,6 @@ nav#main_nav {
             text-align: center;
             font-size: 1em;
           }
-        #content article h1 {
-            width: 640px;
-            }
         #content article blockquote {
             padding-left: 40px;
             padding-right: 40px;
@@ -513,7 +509,7 @@ body.home #content div.colophon {
             }
 body.home #content div.section {
     margin-top: 40px;
-    width: 310px;
+    width: 345px;
     float: left;
     line-height: 1.6em;
     padding-right: 10px;
