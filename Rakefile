@@ -53,7 +53,7 @@ comments: false
 END
 
   File.open(path, 'w') {|f| f << header }
-  system("mate", "-a", path)
+  system("emacsclient", "-n", "-a", "emacs", path)
 end
 
 task :default => :server
