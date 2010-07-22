@@ -43,3 +43,4 @@ exclude:
  - README.markdown
  - .git
  - static
+markdown: rdiscount

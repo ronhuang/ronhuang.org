@@ -1,0 +1,50 @@
+---
+layout: home
+---
+
+<div class="colophon">
+<p><a href="/about/" title="More about Ron">Ron Huang</a> is a PhD
+student and software programmer from Taiwan.</p>
+
+<p>This is his yet another attempt of creating a personal site. Since
+he doesn&#8217;t have a habit of writing journal, let&#8217;s hope
+this one will last longer.</p>
+</div>
+
+
+<div class="section">
+<h4>Recent posts</h4>
+
+{% for post in site.posts limit: 3 %}
+<ul>
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+</ul>
+<span class="line-meta">
+<p>{{ post.date | date: "%A, %B %d, %Y" }}</p>
+</span>
+{% endfor %}
+
+<span class="more">
+<p><a href="/journal/" title="View the Full Archives">Full Archive
+&#8594;</a></p>
+</span>
+</div>
+
+
+<div class="section">
+<h4>Recent projects</h4>
+
+<ul>
+<li><a href="http://github.com/ronhuang/tweetlog">Tweet Log</a></li>
+</ul>
+<span class="line-meta">
+<p>Collects tweets that match the search criteria and retweet them in
+your Twitter account.</p>
+</span>
+
+<span class="more">
+<p><a href="/projects/" title="View All Projects">More Projects
+&#8594;</a></p>
+</span>
+
+</div>
