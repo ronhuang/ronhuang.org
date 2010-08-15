@@ -240,7 +240,7 @@ nav#main_nav {
     #content h1 {
         font-family: 'Helvetica Neue', Helvetica, Arial;
         font-weight: bold;
-        font-size: 52pt;
+        font-size: 32pt;
         letter-spacing: -1pt;
         padding-top: 0px;
         color: {{ site.colors.mono.dark }};
