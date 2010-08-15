@@ -276,19 +276,30 @@ nav#main_nav {
         }
     #content article p,
     #content article blockquote,
-    #content article time,
     #content article ul,
     #content article ol,
     #content article h1,
     #content article h2,
     #content article h3,
-    #content article pre {
+    #content article pre,
+    #content article .post-meta-data {
         margin-bottom: 18pt;
         }
         #content article header h1,
         #content article header h2,
         #content article header h3 {
             margin-bottom: 12pt;
+            }
+        #content article .social-button {
+            height: 20pt;
+            }
+        #content article .social-button-twitter {
+            vertical-align: -45%;
+            }
+        #content article .social-button-buzz {
+            }
+        #content article .google-buzz-button {
+            border-bottom: 0px;
             }
     #content article p,
     #content article blockquote,
@@ -303,7 +314,7 @@ nav#main_nav {
         }
         #content article time {
             font-style: italic;
-            text-align: center;
+            text-align: left;
             font-size: 1em;
           }
         #content article blockquote {

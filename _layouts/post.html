@@ -6,6 +6,16 @@ bodyclass: journal
     <header>
         <h1><a href="{{ page.url }}" rel="bookmark" title="link to this post">{{ page.title }}</a></h1>
         <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published {{ page.date | date: "%A, %B %d, %Y" }}</time>
+        <div class="post-meta-data">
+            <span class="social-button social-button-twitter">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="ronhuang">Tweet</a>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </span>
+            <span class="social-button social-button-buzz">
+        <a title="Post to Google Buzz" class="google-buzz-button" href="http://www.google.com/buzz/post" data-button-style="small-count"></a>
+        <script type="text/javascript" src="http://www.google.com/buzz/api/button.js"></script>
+            </span>
+        </div>
     </header>
     <div id="google_adsense">
       <script type="text/javascript">
