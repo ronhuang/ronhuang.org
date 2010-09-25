@@ -625,6 +625,40 @@ body.home #content div.section {
                 border-bottom: 1px solid {{ site.colors.mono.dark }};
                 }
 
+/* notfound listing */
+
+.notfound ul.lines {
+    }
+    .notfound #content ul.lines {
+        list-style: none;
+        margin: 0px;
+        }
+        .notfound #content ul.lines li {
+            display: block;
+            clear: both;
+            overflow: auto;
+            height: 35px;
+            }
+        .notfound #content ul.lines li span.character {
+            width: 160px;
+            float: left;
+            text-align: right;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 5px;
+            height: 35px;
+            line-height: 35px;
+            font-family: times, 'Times New Roman', times-roman, serif;
+            font-size: 20pt;
+            }
+        .notfound #content ul.lines li span.line {
+            color: {{ site.colors.mono.dark }};
+            line-height: 35px;
+            font-family: times, 'Times New Roman', times-roman, serif;
+            font-size: 20pt;
+            font-style: italic;
+            }
+
 /* pygments code highlighting */
 
 pre,
