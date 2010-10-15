@@ -8,7 +8,7 @@ layout: about
 
 I am a graduate student pursuing PhD degree at Department of
 Electrical & Computer Engineering, National University of
-Singapore. My supervisor is [Assist. Prof. Timothy
+Singapore. My supervisor is [Assist. Prof. Tim
 Marsh](http://ap3.fas.nus.edu.sg/fass/cnmmt/).
 
 My research interest includes human-computer interaction, end-user
