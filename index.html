@@ -17,11 +17,11 @@ this one will last longer.</p>
 
 {% for post in site.posts limit: 3 %}
 <ul>
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li>
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="line-meta">{{ post.date | date: "%A, %B %d, %Y" }}</span>
+</li>
 </ul>
-<span class="line-meta">
-<p>{{ post.date | date: "%A, %B %d, %Y" }}</p>
-</span>
 {% endfor %}
 
 <span class="more">
@@ -35,27 +35,28 @@ this one will last longer.</p>
 <h4>Recent projects</h4>
 
 <ul>
-<li><a href="http://tweetlog.ronhuang.org/">Tweet Log</a></li>
+<li>
+  <a href="http://tweetlog.ronhuang.org/">Tweet Log</a>
+  <span class="line-meta">Collects tweets that match the search
+  criteria and retweet them in your Twitter account.</span>
+</li>
 </ul>
-<span class="line-meta">
-<p>Collects tweets that match the search criteria and retweet them in
-your Twitter account.</p>
-</span>
 
 <ul>
-<li><a href="http://twipa.ronhuang.org/">Twitter Profile Timeline</a></li>
+<li>
+  <a href="http://twipa.ronhuang.org/">Twitter Profile Timeline</a>
+  <span class="line-meta">See when your friends created their Twitter
+  account.</span>
+</li>
 </ul>
-<span class="line-meta">
-<p>See when your friends created their Twitter account.</p>
-</span>
 
 <ul>
-<li><a href="http://desktop.google.com/plugins/i/steamy.html">Steamy</a></li>
+<li>
+  <a href="http://desktop.google.com/plugins/i/steamy.html">Steamy</a>
+  <span class="line-meta">A Google Desktop gadget that allows you to
+  check out attractive people and rate them.</span>
+</li>
 </ul>
-<span class="line-meta">
-<p>A Google Desktop gadget that allows you to check out attractive
-people and rate them.</p>
-</span>
 
 <span class="more">
 <p><a href="/projects/" title="View All Projects">More Projects
