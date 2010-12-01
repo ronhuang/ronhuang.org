@@ -23,6 +23,8 @@ sections:
  - projects
  - about
  - journal
+projects:
+ - steamy
 stylesheets:
  - /assets/themes/default/css/screen.css?671298125=671298125
  - /assets/themes/default/css/print.css
