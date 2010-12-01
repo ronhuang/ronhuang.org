@@ -591,6 +591,20 @@ body.home #content div.section {
             margin-top: 5px;
             }
 
+/* Individual project */
+
+    .steamy #content article h4 {
+        float: left;
+        width: 160px;
+        margin-top: 1px;
+        }
+        .steamy #content article ul li {
+            padding-bottom: 0em;
+            }
+        .steamy #content article ul li a {
+            display: inline;
+            }
+
 /* journal/blog listing */
 
 .journal article ul.archive {

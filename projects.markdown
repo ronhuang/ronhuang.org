@@ -22,7 +22,7 @@ bodyclass: projects
 
 ### JavaScript
 
- * [Steamy](http://desktop.google.com/plugins/i/steamy.html) <span>A
+ * [Steamy](/projects/steamy/) <span>A
    Google Desktop gadget that allows you to check out attractive
    people and rate them.</span>
 
