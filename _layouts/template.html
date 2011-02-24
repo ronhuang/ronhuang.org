@@ -35,8 +35,8 @@
     {% for stylesheet in page.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}" media="screen" />
     {% endfor %}
-    <!--[if IE]>
-    <script src="/assets/themes/default/js/html5.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     {% for script in site.scripts %}
     <script src="{{ script }}" type="text/javascript"></script>
