@@ -7,14 +7,10 @@ desc 'Build site with Jekyll'
 task :build => :clean do
   # compile site
   jekyll
-  minify
 end
 
 desc 'Start server'
-task :server => :build do
-  # FIXME: use :build as prerequisite instead of :clean.
-  # because I need whatever generated in minify().
-  # however, this will run jekyll twice. :(
+task :server => :clean do
   jekyll('--server')
 end
 
