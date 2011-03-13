@@ -8,7 +8,7 @@
 <base target="mainframe">
 
 <STYLE TYPE="text/css">
-	TD {font-family:"¼Ð·¢Åé";
+	TD {font-family:"æ¨™æ¥·é«”";
 		font-size:12pt}
 </STYLE>
 </head>
@@ -16,39 +16,39 @@
 <body background="images/bg1.gif">
 <table width="100%">
   <tr>
-    <td width="50pt">¤é´Á¡G</td>           
+    <td width="50pt">æ—¥æœŸï¼š</td>           
 	<td>
 	<script Language="JavaScript">             
 	<!--             
 	var today = new Date();             
-	//var strDate = ( "19" + today.getYear() + " ¦~ " + (today.getMonth() + 1) + " ¤ë " + today.getDate() + " ¤é ");             
-	var strDate = ( today.getFullYear() + " ¦~ " + (today.getMonth() + 1) + " ¤ë " + today.getDate() + " ¤é ");          
+	//var strDate = ( "19" + today.getYear() + " å¹´ " + (today.getMonth() + 1) + " æœˆ " + today.getDate() + " æ—¥ ");             
+	var strDate = ( today.getFullYear() + " å¹´ " + (today.getMonth() + 1) + " æœˆ " + today.getDate() + " æ—¥ ");          
 	var n_day = today.getDay();             
 	switch (n_day)             
 	{             
 	case 0:{             
-	strDate = strDate + "¬P´Á¤é"             
+	strDate = strDate + "æ˜ŸæœŸæ—¥"             
 	}break;             
 	case 1:{             
-	strDate = strDate + "¬P´Á¤@"             
+	strDate = strDate + "æ˜ŸæœŸä¸€"             
 	}break;             
 	case 2:{             
-	strDate = strDate + "¬P´Á¤G"             
+	strDate = strDate + "æ˜ŸæœŸäºŒ"             
 	}break;             
 	case 3:{             
-	strDate = strDate + "¬P´Á¤T"             
+	strDate = strDate + "æ˜ŸæœŸä¸‰"             
 	}break;              
 	case 4:{             
-	strDate = strDate + "¬P´Á¥|"             
+	strDate = strDate + "æ˜ŸæœŸå››"             
 	}break;             
 	case 5:{             
-	strDate = strDate + "¬P´Á¤­"             
+	strDate = strDate + "æ˜ŸæœŸäº”"             
 	}break;             
 	case 6:{             
-	strDate = strDate + "¬P´Á¤»"             
+	strDate = strDate + "æ˜ŸæœŸå…­"             
 	}break;             
 	case 7:{             
-	strDate = strDate + "¬P´Á¤é"             
+	strDate = strDate + "æ˜ŸæœŸæ—¥"             
 	}break;             
 	}             
 	document.write(strDate);             
@@ -57,7 +57,7 @@
 	</td>  
 </tr>             
   <tr>             
-    <td width="50pt">®É¶¡¡G</td>
+    <td width="50pt">æ™‚é–“ï¼š</td>
     <td>
     <applet code="billsClock.class" width="66" height="62" ALIGN="MIDDLE">                 
       <param name="BGCOLOR" value="000050">                 
@@ -78,18 +78,18 @@
 	            
 	// Get the Hours, and determine if its morning, afternoon or night            
 	if ( d.getHours() < 12 )	{            
-		ampm='¤W¤È';            
+		ampm='ä¸Šåˆ';            
 		Hours = d.getHours();            
 		}            
 	else if ( d.getHours() >= 12 && d.getHours() <= 18 )	{            
-		ampm='¤U¤È';            
+		ampm='ä¸‹åˆ';            
 		if ( d.getHours() > 12 )            
 			Hours = d.getHours() - 12;            
 		else            
 			Hours = d.getHours()            
 		}            
 	else	{            
-		ampm='±ß¤W';            
+		ampm='æ™šä¸Š';            
 		Hours = d.getHours() - 12;            
 		}            
             
