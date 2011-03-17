@@ -29,6 +29,10 @@
     <link rel="icon" type="image/png" href="http://static.ronhuang.org/assets/themes/default/images/favicon.png" />
     <link rel="apple-touch-icon" href="http://static.ronhuang.org/assets/themes/default/images/ios.png"/>
     <meta name="viewport" content="width=800" />
+    {% if page.comments == 'facebook' %}
+    <meta property="fb:admins" content="581056929"/>
+    <meta property="fb:app_id" content="185154174861978">
+    {% endif %}
     {% for stylesheet in site.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}" media="screen" />
     {% endfor %}
