@@ -22,6 +22,11 @@ bodyclass: projects
 
 ### JavaScript
 
+ * [Taiwan Friendly
+   Wikipedia](https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob)
+   <span>Google Chrome extension to show Wikipedia pages in
+   Traditional Chinese (Taiwan).</span>
+
  * [Steamy](/projects/steamy/) <span>A
    Google Desktop gadget that allows you to check out attractive
    people and rate them.</span>
