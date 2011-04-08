@@ -1,47 +1,27 @@
 # http://ronhuang.org
 
-This is the raw text source of my jekyll-based personal site,
-[http://ronhuang.org](http://ronhuang.org). It is based on the
-excellent design from [Michael
-Monteleone](http://github.com/mmonteleone/michaelmonteleone.net)
+This is the source of my personal site,
+[http://ronhuang.org](http://ronhuang.org). It is managed by
+[Jekyll](http://github.com/mojombo/jekyll).
 
-It can be "compiled" with the following Rake tasks
+## License:
 
-    rake server   # Start server with --auto (default)
-    rake post     # Begin a new post
-    rake build    # Build site with Jekyll
-    rake deploy   # Build and deploy
-    rake minify   # Minify JavaScript
-    rake clean    # Remove any temporary products.
-    rake clobber  # Remove any generated file.
+Contents:
 
-All content is Copyright 2010 by Ron Huang.
+Contents within `/_posts` are released under [Creative Commons
+Attribution-ShareAlike 3.0 Unported
+License](http://creativecommons.org/licenses/by-sa/3.0/)
 
-Content within `/_posts` and `/assets/themes` is released under [CC
-Attribution 3.0](http://creativecommons.org/licenses/by/3.0/us/)
+Major components:
 
-Content not within `/_posts` and `/assets/themes` is released under
-terms of the MIT license.
+* Modernizr: MIT/BSD license
+* jQuery: MIT/GPL license
+* DD_belatedPNG: MIT license
+* YUI Profiling: BSD license
+* HTML5Doctor CSS reset: Public Domain
+* CSS Reset Reloaded: Public Domain
+* Less Framework: MIT license
 
-The MIT License
+Everything else:
 
-Copyright (c) 2010 Ron Huang, http://ronhuang.org
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+* [The Unlicense](http://unlicense.org) (aka: public domain)
