@@ -165,9 +165,8 @@ a:hover { color: #036; }
 /**
  * Primary styles
  *
- * Author: 
+ * Author: Ron Huang
  */
-
 
 /*	Less Framework 4
 	http://lessframework.com
@@ -239,6 +238,23 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
+nav ul {
+    margin-bottom: 3em;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 24px;
+}
+
+article {
+    margin-left: 344px;
+    width: 528px;
+    position: relative;
+    padding-bottom: 1.5em;
+}
+
 
 
 /*		Tablet Layout: 768px.
@@ -250,11 +266,16 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+
 	body {
 		width: 712px;
 		padding: 48px 28px 60px;
 	}
+
+    article {
+        margin-left: 252px;
+        width: 436px;
+    }
 }
 
 
@@ -268,12 +289,16 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-	
+
 	body {
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
-	
+
+    article {
+        margin-left: 0 0 1.5em;
+        width: 252;
+    }
 }
 
 
@@ -287,12 +312,16 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	body {
 		width: 436px;
 		padding: 36px 22px 48px;
 	}
-	
+
+    article {
+        margin-left: 0 0 1.5em;
+        width: 436;
+    }
 }
 
 
@@ -339,30 +368,6 @@ px      68    160    252    344    436    */
 
 
 
-/**
- * Media queries for responsive design.
- *
- * These follow after primary styles so they will successfully override.
- */
-
-@media all and (orientation:portrait) {
-  /* Style adjustments for portrait mode goes here */
-
-}
-
-@media all and (orientation:landscape) {
-  /* Style adjustments for landscape mode goes here */
-
-}
-
-/* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
-   consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 480px) {
-
-
-  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
-  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
-}
 
 
 /**
