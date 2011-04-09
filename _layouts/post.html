@@ -3,36 +3,15 @@ layout: template
 bodyclass: journal
 ---
 
-<aside class="search">
-</aside>
-
 <article>
   <section>
     <header>
-      <h1>{{ page.title }}</h1>
+      <h1 class="title">{{ page.title }}</h1>
     </header>
-
-    <aside class="pubdate">
+    <div class="pubdate">
       <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published {{ page.date | date: "%a, %b %d, %Y" }}</time>
-    </aside>
-
-    <aside class="tags">
-    </aside>
-
+    </div>
     {{ content }}
-
-    <aside class="advertisement">
-      <script type="text/javascript">
-        <!--
-        google_ad_client = "pub-2284163765913634";
-        /* journal, ronhuang.org */
-        google_ad_slot = "3595698031";
-        google_ad_width = 120;
-        google_ad_height = 240;
-        //-->
-      </script>
-      <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-    </aside>
   </section>
 
   <section class="comment">

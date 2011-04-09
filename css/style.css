@@ -249,7 +249,7 @@ body {
   min-height: 400px;
 }
 
-#head, article, #colophon {
+#head, article, div.sidebar, #colophon {
   padding-left: 48px;
   padding-right: 48px;
   margin: 0 auto;
@@ -319,13 +319,27 @@ article {
   margin-bottom: 50px;
 }
 
+article h1.title {
+  margin-bottom: 0px;
+}
+
+article div.pubdate {
+  color: rgb(97, 97, 97);
+  text-align: right;
+  margin-bottom: 24px;
+}
+
 article section {
   width: 620px;
   margin-bottom: 50px;
 }
 
-article h1 {
+article p, article blockquote, article ul, article ol, article h1, article h2, article h3, article pre {
   margin-bottom: 24px;
+}
+
+article p {
+  text-align: justify;
 }
 
 aside {
@@ -333,18 +347,11 @@ aside {
   z-index: 800;
   width: 204px;
   padding: 36px 24px;
-}
-
-aside.pubdate {
-  top: 90px;
   right: 48px;
-  color: rgb(97, 97, 97);
-  text-align: right;
 }
 
 aside.advertisement {
   top: 150px;
-  right: 48px;
   text-align: right;
 }
 
