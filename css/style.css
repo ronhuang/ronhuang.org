@@ -105,7 +105,7 @@ pre {
 
 textarea { overflow: auto; } /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
 
-.ie6 legend, .ie7 legend { margin-left: -7px; } 
+.ie6 legend, .ie7 legend { margin-left: -7px; }
 
 /* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
 input[type="radio"] { vertical-align: text-bottom; }
@@ -188,12 +188,12 @@ a:hover { color: #036; }
 	letter-spacing: -1px;
 }
 
-.large, h2 {
+.large, h2, article h1 {
 	font-size: 44px;
 	line-height: 48px;
 }
 
-.bigger, h3 {
+.bigger, h3, #head h1 {
 	font-size: 28px;
 	line-height: 36px;
 }
@@ -207,7 +207,7 @@ body {
 	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
 }
 
-.small, small {
+.small, small, article time, #colophon {
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -222,7 +222,7 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 
 
-/*		Default Layout: 992px. 
+/*		Default Layout: 992px.
 		Gutters: 24px.
 		Outer margins: 48px.
 		Leftover space for scrollbars @1024px: 32px.
@@ -231,30 +231,122 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-	width: 896px;
-	padding: 72px 48px 84px;
-	background: rgb(232,232,232);
-	color: rgb(60,60,60);
-	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+  padding: 72px 0 84px;
+  position: relative;
+  background: rgb(232, 232, 232);
+  color: rgb(60, 60, 60);
+  -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
-nav ul {
-    margin-bottom: 3em;
+#head, article, #colophon {
+  padding-left: 48px;
+  padding-right: 48px;
+  margin: 0 auto;
+  width: 896px;
+  position: relative;
+}
+
+#head h1 {
+  margin: 0;
+  padding-top: 3px;
+  line-height: 33px;
+  font-weight: normal;
+}
+
+#head p {
+  color: rgb(97, 97, 97);
+}
+
+nav {
+  position: absolute;
+  right: 48px;
+  top: 8px;
 }
 
 nav ul li {
-    display: inline;
-    float: left;
-    margin-right: 24px;
+  display: inline;
+  float: left;
+  margin-left: 12px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 11px 15px;
+  border: 1px solid rgb(195,195,195);
+  color: rgb(60,97,158);
+  -webkit-tap-highlight-color: rgba(0,0,0, 0);
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
+  -moz-box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
+  box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.123s ease-out;
+  -moz-transition: all 0.123s ease-out;
+  transition: all 0.123s ease-out;
+}
+
+nav ul li a:hover, nav ul li a:active {
+  text-decoration: none;
+  border-color: rgb(158,158,158);
+  -webkit-box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
+  -moz-box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
+  box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
+}
+
+nav ul li a:active, nav ul li .touched {
+  background: rgb(60,97,158);
+  border-color: rgb(23,37,60);
+  color: rgb(232,241,255);
+  text-shadow: 0 -1px 0 rgba(0,0,0, 0.9);
+  -webkit-box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
+  -moz-box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
+  box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
 }
 
 article {
-    margin-left: 344px;
-    width: 528px;
-    position: relative;
-    padding-bottom: 1.5em;
+  border-width: 1px 0 0 0;
+  padding-top: 50px;
+  clear: both;
+  margin-bottom: 50px;
 }
 
+article section {
+  width: 620px;
+  margin-bottom: 50px;
+}
+
+article h1 {
+  margin-bottom: 24px;
+}
+
+aside {
+  position: absolute;
+  z-index: 800;
+  width: 204px;
+  padding: 36px 24px;
+}
+
+aside.pubdate {
+  top: 90px;
+  right: 48px;
+  color: rgb(97, 97, 97);
+  text-align: right;
+}
+
+aside.advertisement {
+  top: 150px;
+  right: 48px;
+  text-align: right;
+}
+
+#colophon {
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: none;
+}
 
 
 /*		Tablet Layout: 768px.
@@ -267,15 +359,15 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-	body {
-		width: 712px;
-		padding: 48px 28px 60px;
-	}
+  body {
+	width: 712px;
+	padding: 48px 28px 60px;
+  }
 
-    article {
-        margin-left: 252px;
-        width: 436px;
-    }
+  article {
+    margin-left: 252px;
+    width: 436px;
+  }
 }
 
 
@@ -290,15 +382,15 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 
-	body {
-		width: 252px;
-		padding: 48px 34px 60px;
-	}
+  body {
+	width: 252px;
+	padding: 48px 34px 60px;
+  }
 
-    article {
-        margin-left: 0 0 1.5em;
-        width: 252;
-    }
+  article {
+    margin-left: 0 0 1.5em;
+    width: 252;
+  }
 }
 
 
@@ -313,15 +405,15 @@ px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	body {
-		width: 436px;
-		padding: 36px 22px 48px;
-	}
+  body {
+	width: 436px;
+	padding: 36px 22px 48px;
+  }
 
-    article {
-        margin-left: 0 0 1.5em;
-        width: 436;
-    }
+  article {
+    margin-left: 0 0 1.5em;
+    width: 436;
+  }
 }
 
 

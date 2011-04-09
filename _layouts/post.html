@@ -7,23 +7,40 @@ bodyclass: journal
 </aside>
 
 <article>
-  <header>
-    <h1><a href="{{ page.url }}" rel="bookmark" title="link to this post">{{ page.title }}</a></h1>
-    <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published {{ page.date | date: "%A, %B %d, %Y" }}</time>
-  </header>
-
   <section>
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <aside class="pubdate">
+      <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published {{ page.date | date: "%a, %b %d, %Y" }}</time>
+    </aside>
+
+    <aside class="tags">
+    </aside>
+
     {{ content }}
+
+    <aside class="advertisement">
+      <script type="text/javascript">
+        <!--
+        google_ad_client = "pub-2284163765913634";
+        /* journal, ronhuang.org */
+        google_ad_slot = "3595698031";
+        google_ad_width = 120;
+        google_ad_height = 240;
+        //-->
+      </script>
+      <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </aside>
   </section>
 
-  {% if page.comments == 'facebook' %}
-  <section>
+  <section class="comment">
+    {% if page.comments == 'facebook' %}
     <div id="fb-root"></div>
     <script src="http://connect.facebook.net/en_US/all.js#appId=185154174861978&amp;xfbml=1"></script>
     <fb:comments href="{{ site.url }}{{ page.url }}" num_posts="5" width="710"></fb:comments>
-  </section>
-  {% elsif page.comments %}
-  <section>
+    {% elsif page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_identifier = "{{ page.url }}";
@@ -35,19 +52,7 @@ bodyclass: journal
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=ronhuang">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    {% endif %}
   </section>
-  {% endif %}
 </article>
 
-<aside class="advertisement">
-  <script type="text/javascript">
-    <!--
-    google_ad_client = "pub-2284163765913634";
-    /* journal, ronhuang.org */
-    google_ad_slot = "3595698031";
-    google_ad_width = 120;
-    google_ad_height = 240;
-    //-->
-  </script>
-  <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-</aside>
