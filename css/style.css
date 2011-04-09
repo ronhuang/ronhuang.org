@@ -44,7 +44,7 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after { content: ""; content: none; }
 
-ins { background-color: #ff9; color: #000; text-decoration: none; }
+ins { background-color: transparent; color: #000; text-decoration: none; }
 
 mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
 
@@ -54,7 +54,7 @@ abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #616161; margin: 1em 0; padding: 0; }
 
 input, select { vertical-align: middle; }
 
@@ -130,8 +130,10 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
+/*
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+*/
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -149,8 +151,7 @@ button {  width: auto; overflow: visible; }
  */
 
 body, select, input, textarea {
-  /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
-  color: #444;
+  color: #112;
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
 }
@@ -158,8 +159,15 @@ body, select, input, textarea {
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-a, a:active, a:visited { color: #607890; }
-a:hover { color: #036; }
+a, a:active, a:visited {
+  color: #112;
+  border-bottom: 1px dotted #112;
+  text-decoration: none;
+}
+a:hover {
+  color: #112;
+  border-bottom: 1px solid #112;
+}
 
 
 /**
@@ -203,7 +211,7 @@ a:hover { color: #036; }
 	line-height: 30px;
 }
 
-body {
+body, #disqus_thread h3 {
 	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
 }
 
@@ -214,11 +222,13 @@ body {
 
 /* Selection colours (easy to forget) */
 
+/*
 ::selection 	 	{background: rgb(255,255,158);}
 ::-moz-selection 	{background: rgb(255,255,158);}
 img::selection 		{background: transparent;}
 img::-moz-selection	{background: transparent;}
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
+*/
 
 
 
@@ -231,11 +241,12 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-  padding: 72px 0 84px;
+  padding: 0;
   position: relative;
-  background: rgb(232, 232, 232);
-  color: rgb(60, 60, 60);
+  background-color: #CCB;
   -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+  border-top: 4px solid #112;
+  min-height: 400px;
 }
 
 #head, article, #colophon {
@@ -251,57 +262,54 @@ body {
   padding-top: 3px;
   line-height: 33px;
   font-weight: normal;
+  background-color: #112;
+  width: 160px;
+  height: 51px;
+  text-align: center;
 }
 
-#head p {
-  color: rgb(97, 97, 97);
+#head a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+  line-height: 48px;
+  letter-spacing: 1px;
+  border-bottom: 0;
 }
 
-nav {
+#head h1 a {
+  color: #CCB;
+}
+
+#head nav {
   position: absolute;
   right: 48px;
-  top: 8px;
+  top: 0;
+  width: 344px;
 }
 
-nav ul li {
+#head nav ul {
+  float: right;
+  width: 252px;
   display: inline;
+}
+
+#head nav ul li {
+  display: inline;
+}
+
+#head nav ul li a {
+  width: 80px;
+  height: 51px;
+  color: #112;
+  text-transform: uppercase;
   float: left;
-  margin-left: 12px;
+  text-align: center;
+  font-size: 19px;
 }
 
-nav ul li a {
-  display: block;
-  padding: 11px 15px;
-  border: 1px solid rgb(195,195,195);
-  color: rgb(60,97,158);
-  -webkit-tap-highlight-color: rgba(0,0,0, 0);
-  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
-  -moz-box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
-  box-shadow: inset 0 0 5px rgba(0,0,0, 0.05);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-transition: all 0.123s ease-out;
-  -moz-transition: all 0.123s ease-out;
-  transition: all 0.123s ease-out;
-}
-
-nav ul li a:hover, nav ul li a:active {
-  text-decoration: none;
-  border-color: rgb(158,158,158);
-  -webkit-box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
-  -moz-box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
-  box-shadow: inset 0 0 8px rgba(0,0,0, 0.38);
-}
-
-nav ul li a:active, nav ul li .touched {
-  background: rgb(60,97,158);
-  border-color: rgb(23,37,60);
-  color: rgb(232,241,255);
-  text-shadow: 0 -1px 0 rgba(0,0,0, 0.9);
-  -webkit-box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
-  -moz-box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
-  box-shadow: inset 0 0 12px rgba(0,0,0, 0.765);
+#head nav ul li a:hover {
+  background-color: #112;
+  color: #CCB;
 }
 
 article {
@@ -341,12 +349,16 @@ aside.advertisement {
 }
 
 #colophon {
+  margin-top: 80px;
   text-align: center;
+  color: #616161;
 }
 
 .copyright a {
   text-decoration: none;
+  color: #616161;
 }
+
 
 
 /*		Tablet Layout: 768px.
@@ -421,6 +433,83 @@ px      68    160    252    344    436    */
 
 
 
+/* pygments code highlighting */
+
+pre, code, tt {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+pre {
+  width: 650px;
+  padding: 15px;
+  padding-right: 0px;
+  overflow: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.hll { background-color: #49483e; }
+pre { background: #272822; color: #f8f8f2; }
+.c  { color: #75715e; }
+.err { color: #960050; background-color: #1e0010; }
+.k  { color: #66d9ef; }
+.l  { color: #ae81ff; }
+.n  { color: #f8f8f2; }
+.o  { color: #f92672; }
+.p  { color: #ff0000; }
+.cm { color: #75715e; }
+.cp { color: #75715e; }
+.c1 { color: #75715e; }
+.cs { color: #75715e; }
+.ge { font-style: italic; }
+.gs { font-weight: bold; }
+.kc { color: #66d9ef; }
+.kd { color: #66d9ef; }
+.kn { color: #f92672; }
+.kp { color: #66d9ef; }
+.kr { color: #66d9ef; }
+.kt { color: #fd971f; }
+.ld { color: #e6db74; }
+.m  { color: #ae81ff; }
+.s  { color: #e6db74; background-color: #49483e; }
+.na { color: #a6e22e; }
+.nb { color: #f8f8f2; }
+.nc { color: #a6e22e; }
+.no { color: #66d9ef; }
+.nd { color: #a6e22e; }
+.ni { color: #f8f8f2; }
+.ne { color: #a6e22e; }
+.nf { color: #f92672; }
+.nl { color: #f8f8f2; }
+.nn { color: #f8f8f2; }
+.nx { color: #f8f8f2; }
+.py { color: #f8f8f2; }
+.nt { color: #f92672; }
+.nv { color: #f8f8f2; }
+.ow { color: #f92672; }
+.w  { color: #f8f8f2; }
+.mf { color: #ae81ff; }
+.mh { color: #ae81ff; }
+.mi { color: #ae81ff; }
+.mo { color: #ae81ff; }
+.sb { color: #e6db74; }
+.sc { color: #e6db74; }
+.sd { color: #e6db74; }
+.s2 { color: #e6db74; background-color: #49483e; }
+.se { color: #ae81ff; }
+.sh { color: #e6db74; }
+.si { color: #e6db74; }
+.sx { color: #e6db74; }
+.sr { color: #e6db74; }
+.s1 { color: #e6db74; background-color: #49483e; }
+.ss { color: #e6db74; }
+.bp { color: #f8f8f2; }
+.vc { color: #f8f8f2; }
+.vg { color: #f8f8f2; }
+.vi { color: #f8f8f2; }
+.il { color: #ae81ff; }
 
 
 
