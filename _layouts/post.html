@@ -12,6 +12,14 @@ bodyclass: journal
       <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published {{ page.date | date: "%A, %B %d, %Y" }}</time>
     </div>
     {{ content }}
+    <div class="page-nav clearfix">
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">&#8592; Previous</a>
+      {% endif %}
+      {% if page.next %}
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &#8594;</a>
+      {% endif %}
+    </div>
   </section>
 
   <section class="comment">

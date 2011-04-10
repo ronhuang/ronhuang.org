@@ -220,7 +220,7 @@ body {
 	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
 }
 
-.small, small, article time, #colophon, article div.recent ul li .line-meta {
+.small, small, .journal div.pubdate, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -473,6 +473,14 @@ aside.advertisement {
 
 .journal .archive a {
   line-height: 35px;
+}
+
+.journal .page-nav .previous {
+  float: left;
+}
+
+.journal .page-nav .next {
+  float: right;
 }
 
 
