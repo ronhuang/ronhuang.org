@@ -1,10 +1,12 @@
 ---
 title: About
-tags:  []
 layout: about
 ---
 
 ## The Author
+
+I am Ron Huang. I am also known as Yih-Lun Huang or 黃翊倫. I am
+happily married to [Grace Tsao](http://grace.hng.tw/).
 
 I am a graduate student pursuing PhD degree at Department of
 Electrical & Computer Engineering, National University of
