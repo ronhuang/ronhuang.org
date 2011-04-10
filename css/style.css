@@ -455,6 +455,26 @@ aside.advertisement {
   margin-bottom: 24px;
 }
 
+.journal .archive {
+  list-style: none;
+  margin-left: 0px;
+}
+
+.journal .archive li {
+  display: block;
+}
+
+.journal .archive time {
+  width: 160px;
+  float: left;
+  font-style: italic;
+  line-height: 35px;
+}
+
+.journal .archive a {
+  line-height: 35px;
+}
+
 
 /*		Tablet Layout: 768px.
 		Gutters: 24px.
