@@ -312,6 +312,21 @@ body {
   color: #CCB;
 }
 
+body.projects #head nav ul li a.projects {
+  background-color: #112;
+  color: #CCB;
+}
+
+body.about #head nav ul li a.about {
+  background-color: #112;
+  color: #CCB;
+}
+
+body.journal #head nav ul li a.journal {
+  background-color: #112;
+  color: #CCB;
+}
+
 article {
   border-width: 1px 0 0 0;
   padding-top: 50px;
