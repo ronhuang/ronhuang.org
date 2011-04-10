@@ -24,4 +24,5 @@ familiar to software programmers.
 
 I enjoy playing video game, reading fiction, and writing hobbyist
 software. Most of my software projects are host at
-[GitHub](http://github.com/ronhuang). I prefer Emacs over vi.
+[GitHub](http://github.com/ronhuang). I prefer Emacs over vi. For more
+information, please refer to my [CV](/cv/).

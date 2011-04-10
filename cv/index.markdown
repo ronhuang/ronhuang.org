@@ -1,7 +1,7 @@
 ---
 title: CV
 layout: simple
-bodyclass: projects
+bodyclass: about
 ---
 
 ## Yih-Lun “Ron” Huang
