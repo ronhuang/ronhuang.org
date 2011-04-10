@@ -1,6 +1,7 @@
 ---
 title: About
-layout: about
+layout: simple
+bodyclass: about
 ---
 
 ## The Author

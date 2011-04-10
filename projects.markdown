@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: index
+layout: simple
 bodyclass: projects
 ---
 

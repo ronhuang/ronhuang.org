@@ -1,6 +1,6 @@
 ---
 title: Journal
-layout: index
+layout: simple
 bodyclass: journal
 ---
 
