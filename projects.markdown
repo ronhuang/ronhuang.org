@@ -8,28 +8,27 @@ bodyclass: projects
 
 ### C
 
- * [rvm](http://yoda.ronhuang.org/rvm/) <span>IA-32 Virtual
-   Machine.</span>
+ * <a href="http://yoda.ronhuang.org/rvm/" class="name">rvm</a>
+   <span>IA-32 Virtual Machine.</span>
 
 ### Python
 
- * [Tweet Log](http://tweetlog.ronhuang.org/) <span>Collects tweets
-   that match the search criteria and retweet them in your Twitter
-   account.</span>
+ * <a href="http://tweetlog.ronhuang.org/" class="name">Tweet Log</a>
+   <span>Collects tweets that match the search criteria and retweet
+   them in your Twitter account.</span>
 
- * [Twitter Profile Timeline](http://twipa.ronhuang.org/) <span>See
-   when your friends created their Twitter account.</span>
+ * <a href="http://twipa.ronhuang.org/" class="name">Twitter Profile Timeline</a>
+   <span>See when your friends created their Twitter account.</span>
 
 ### JavaScript
 
- * [Taiwan Friendly
-   Wikipedia](https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob)
+ * <a href="https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob" class="name">Taiwan Friendly Wikipedia</a>
    <span>Google Chrome extension to show Wikipedia pages in
    Traditional Chinese (Taiwan).</span>
 
- * [Steamy](/projects/steamy/) <span>A
-   Google Desktop gadget that allows you to check out attractive
-   people and rate them.</span>
+ * <a href="/projects/steamy/" class="name">Steamy</a>
+   <span>A Google Desktop gadget that allows you to check out
+   attractive people and rate them.</span>
 
 
 ## Other

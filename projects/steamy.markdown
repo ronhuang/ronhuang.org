@@ -1,10 +1,11 @@
 ---
 title: Steamy
-tags:  []
-layout: steamy
+tags:  [project]
+layout: simple
+bodyclass: projects
 ---
 
-*For Google Desktop*
+## For Google Desktop
 
 ### About
 

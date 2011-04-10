@@ -428,12 +428,12 @@ aside.advertisement {
   display: block;
 }
 
-.projects ul li a {
+.projects ul li a.name {
   display: block;
   border-bottom: 1px dotted #112;
 }
 
-.projects ul li a:hover {
+.projects ul li a.name:hover {
   border-bottom: 1px solid #112;
 }
 
