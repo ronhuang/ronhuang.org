@@ -190,28 +190,33 @@ a:hover {
 	letter-spacing: -2px;
 }
 
-.huge, h1 {
+.huge {
 	font-size: 72px;
 	line-height: 72px;
 	letter-spacing: -1px;
 }
 
-.large, h2, article h1 {
+.large, h1 {
 	font-size: 44px;
 	line-height: 48px;
 }
 
-.bigger, h3, #head h1 {
+.bigger, h2, #head h1 {
 	font-size: 28px;
 	line-height: 36px;
 }
 
-.big, h4 {
+.big, h3 {
 	font-size: 24px;
 	line-height: 30px;
 }
 
-body, #disqus_thread h3 {
+.normal, h4, #disqus_thread h3 {
+	font-size: 17px;
+	line-height: 24px;
+}
+
+body {
 	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
 }
 
