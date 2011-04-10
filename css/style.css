@@ -220,7 +220,7 @@ body {
 	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
 }
 
-.small, small, .journal div.pubdate, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
+.small, small, .journal div.pubdate, .journal .archive time, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -426,6 +426,7 @@ aside.advertisement {
 
 .projects ul li {
   display: block;
+  overflow: auto;
 }
 
 .projects ul li a.name {
@@ -462,6 +463,7 @@ aside.advertisement {
 
 .journal .archive li {
   display: block;
+  overflow: auto;
 }
 
 .journal .archive time {
