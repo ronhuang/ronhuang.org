@@ -4,7 +4,7 @@ layout: simple
 bodyclass: projects
 ---
 
-*Programming*
+## Programming
 
 ### C
 

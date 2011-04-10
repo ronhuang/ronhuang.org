@@ -339,50 +339,6 @@ article {
   margin-bottom: 50px;
 }
 
-article div.colophon {
-  background-image: url(http://www.gravatar.com/avatar/5c3e79143f33d4dd83ad471742705fe4.png?s=160);
-  background-position: top right;
-  background-repeat: no-repeat;
-  padding-right: 175px;
-  min-height: 160px;
-  height: 160px;
-  margin-bottom: 50px;
-}
-
-article div.recent {
-  width: 252px;
-  float: left;
-  margin-right: 116px; /* col + gutter */
-}
-
-article div.last {
-  margin-right: 0px;
-}
-
-article div.recent ul {
-  list-style: none;
-  margin-left: 0;
-}
-
-article div.recent ul li {
-  display: block;
-}
-
-article div.recent ul li .line-meta {
-  font-style: italic;
-  display: block;
-}
-
-article h1.title {
-  margin-bottom: 0px;
-}
-
-article div.pubdate {
-  color: rgb(97, 97, 97);
-  text-align: right;
-  margin-bottom: 24px;
-}
-
 article section {
   width: 620px;
   margin-bottom: 50px;
@@ -420,6 +376,84 @@ aside.advertisement {
   color: #616161;
 }
 
+/* home */
+
+.home div.colophon {
+  background-image: url(http://www.gravatar.com/avatar/5c3e79143f33d4dd83ad471742705fe4.png?s=160);
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-right: 175px;
+  min-height: 160px;
+  height: 160px;
+  margin-bottom: 50px;
+}
+
+.home div.recent {
+  width: 252px;
+  float: left;
+  margin-right: 116px; /* col + gutter */
+}
+
+.home div.last {
+  margin-right: 0px;
+}
+
+.home div.recent ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.home div.recent ul li {
+  display: block;
+}
+
+.home div.recent ul li .line-meta {
+  font-style: italic;
+  display: block;
+}
+
+/* projects */
+
+.projects h3 {
+  float: left;
+  width: 160px;
+}
+
+.projects ul {
+  list-style: none;
+  margin-left: 160px;
+}
+
+.projects ul li {
+  display: block;
+}
+
+.projects ul li a {
+  display: block;
+  border-bottom: 1px dotted #112;
+}
+
+.projects ul li a:hover {
+  border-bottom: 1px solid #112;
+}
+
+.projects ul li span {
+  display: block;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* journal */
+
+.journal h1.title {
+  margin-bottom: 0px;
+}
+
+.journal div.pubdate {
+  color: rgb(97, 97, 97);
+  text-align: right;
+  margin-bottom: 24px;
+}
 
 
 /*		Tablet Layout: 768px.
