@@ -151,22 +151,25 @@ button {  width: auto; overflow: visible; }
  */
 
 body, select, input, textarea {
-  color: #112;
+  color: rgb(60,60,60);
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: rgb(23,23,23);
+}
 
 a, a:active, a:visited {
-  color: #112;
-  border-bottom: 1px dotted #112;
+  color: rgb(60,60,60);
+  border-bottom: 1px dotted rgb(60,60,60);
   text-decoration: none;
 }
 a:hover {
-  color: #112;
-  border-bottom: 1px solid #112;
+  color: rgb(60,60,60);
+  border-bottom: 1px solid rgb(60,60,60);
 }
 
 
@@ -185,39 +188,39 @@ a:hover {
 	------------------	*/
 
 .gigantic {
-	font-size: 116px;
+	font-size: 110px;
 	line-height: 120px;
 	letter-spacing: -2px;
 }
 
 .huge {
-	font-size: 72px;
+	font-size: 68px;
 	line-height: 72px;
 	letter-spacing: -1px;
 }
 
 .large, h1 {
-	font-size: 44px;
+	font-size: 42px;
 	line-height: 48px;
 }
 
 .bigger, h2, #head h1 {
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 36px;
 }
 
 .big, h3 {
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 30px;
 }
 
 .normal, h4, #disqus_thread h3 {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
 body {
-	font: 17px/24px Palatino, Constantia, "Palatino Linotype", serif;
+	font: 16px/24px 'Droid Serif', Constantia, "Palatino Linotype", serif;
 }
 
 .small, small, .journal div.pubdate, .journal .archive time, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
@@ -248,9 +251,9 @@ px      68    160    252    344    436    528    620    712    804    896    */
 body {
   padding: 0;
   position: relative;
-  background-color: #CCB;
+  background-color: rgb(232,232,232);
   -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-  border-top: 4px solid #112;
+  border-top: 4px solid rgb(23,23,23);
   min-height: 400px;
 }
 
@@ -267,7 +270,7 @@ body {
   padding-top: 3px;
   line-height: 33px;
   font-weight: normal;
-  background-color: #112;
+  background-color: rgb(23,23,23);
   width: 160px;
   height: 51px;
   text-align: center;
@@ -282,7 +285,7 @@ body {
 }
 
 #head h1 a {
-  color: #CCB;
+  color: rgb(232,232,232);
 }
 
 #head nav {
@@ -305,7 +308,7 @@ body {
 #head nav ul li a {
   width: 80px;
   height: 51px;
-  color: #112;
+  color: rgb(23,23,23);
   text-transform: uppercase;
   float: left;
   text-align: center;
@@ -313,23 +316,23 @@ body {
 }
 
 #head nav ul li a:hover {
-  background-color: #112;
-  color: #CCB;
+  background-color: rgb(23,23,23);
+  color: rgb(232,232,232);
 }
 
 body.projects #head nav ul li a.projects {
-  background-color: #112;
-  color: #CCB;
+  background-color: rgb(23,23,23);
+  color: rgb(232,232,232);
 }
 
 body.about #head nav ul li a.about {
-  background-color: #112;
-  color: #CCB;
+  background-color: rgb(23,23,23);
+  color: rgb(232,232,232);
 }
 
 body.journal #head nav ul li a.journal {
-  background-color: #112;
-  color: #CCB;
+  background-color: rgb(23,23,23);
+  color: rgb(232,232,232);
 }
 
 article {
@@ -431,11 +434,11 @@ aside.advertisement {
 
 .projects ul li a.name {
   display: block;
-  border-bottom: 1px dotted #112;
+  border-bottom: 1px dotted rgb(60,60,60);
 }
 
 .projects ul li a.name:hover {
-  border-bottom: 1px solid #112;
+  border-bottom: 1px solid rgb(60,60,60);
 }
 
 .projects ul li span {
@@ -683,7 +686,7 @@ pre { background: #272822; color: #f8f8f2; }
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
   -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
-  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a, a:visited { color: rgb(60,60,60) !important; text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
