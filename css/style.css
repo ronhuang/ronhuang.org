@@ -371,6 +371,18 @@ aside section {
   text-align: center;
 }
 
+aside section.share .buzz {
+  vertical-align: -1px;
+}
+
+aside section.share .facebook {
+  vertical-align: -1px;
+}
+
+aside section.share .google-buzz-button {
+  border-bottom: 0px;
+}
+
 aside section.last {
   border-bottom: 0;
 }

@@ -27,11 +27,20 @@
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% if page.comments == 'facebook' %}
-  <!-- Facebook Comments -->
+  <!-- Open Graph tags -->
+  {% if page.title %}
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{{ page.title }} &mdash; {{ site.title }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+  {% else %}
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:url" content="{{ site.url }}"/>
+  {% endif %}
+  <meta property="og:image" content="http://www.gravatar.com/avatar/5c3e79143f33d4dd83ad471742705fe4.png?s=160"/>
+  <meta property="og:site_name" content="{{ site:title }}"/>
   <meta property="fb:admins" content="581056929"/>
   <meta property="fb:app_id" content="185154174861978">
-  {% endif %}
 
   <!-- Feed -->
   <link rel="alternate" type="application/atom+xml" title="{{ site.author.name }}" href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
@@ -73,6 +82,15 @@
     <div class="sidebar">
       <aside>
         <section class="share">
+          <span class="buzz">
+            <a title="Post to Google Buzz" class="google-buzz-button" href="http://www.google.com/buzz/post" data-button-style="normal-count"></a>
+          </span>
+          <span class="twitter">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-via="ronhuang" data-count="vertical">Tweet</a>
+          </span>
+          <span class="facebook">
+            <fb:like href="{{ site.url }}{{ page.url }}" layout="box_count" show_faces="false" width="50" font=""></fb:like>
+          </span>
         </section>
         <section class="search">
           <form action="http://www.google.com/cse" id="cse-search-box">
@@ -83,7 +101,6 @@
               <input type="submit" name="sa" value="Search" />
             </div>
           </form>
-          <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
         </section>
         <section class="advertisement last">
           <script type="text/javascript"><!--
@@ -118,6 +135,10 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 
+  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+  <script type="text/javascript" src="http://www.google.com/buzz/api/button.js"></script>
+  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 
   <!-- scripts concatenated and minified via ant build script-->
   <script src="/js/plugins.js"></script>
