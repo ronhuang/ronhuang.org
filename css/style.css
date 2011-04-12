@@ -368,21 +368,17 @@ aside {
 
 aside section {
   border-bottom: 1px dotted rgb(60,60,60);
-  margin-bottom: 24px;
-  padding-bottom: 24px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
   text-align: center;
 }
 
-aside section.share .buzz {
-  vertical-align: -1px;
+aside section.share {
+  padding-bottom: 6px;
 }
 
 aside section.share .facebook {
   vertical-align: -1px;
-}
-
-aside section.share .google-buzz-button {
-  border-bottom: 0px;
 }
 
 aside section.last {
@@ -390,7 +386,7 @@ aside section.last {
 }
 
 #colophon {
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
   color: #616161;
 }
