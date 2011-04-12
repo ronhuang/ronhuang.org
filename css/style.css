@@ -222,7 +222,7 @@ a:hover {
 }
 
 body {
-	font: 16px/24px 'Droid Serif', Constantia, "Palatino Linotype", serif;
+	font: 16px/24px 'PT Serif', Cambria, Georgia, dfkai-sb, stkaiti, 標楷體, 华文楷体, serif;
 }
 
 .small, small, .journal div.pubdate, .journal .archive time, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
@@ -585,7 +585,7 @@ px      68    160    252    344    436    */
 /* pygments code highlighting */
 
 pre, code, tt {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: monospace;
   font-size: 12px;
   line-height: 1.5em;
 }
