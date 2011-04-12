@@ -11,12 +11,21 @@ bodyclass: journal
       <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published on {{ page.date | date: "%A, %B %d, %Y" }}</time>
     </div>
     {{ content }}
-    <div class="page-nav clearfix">
-      {% if page.previous %}
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">&#8592; Previous</a>
-      {% endif %}
+    <div class="page-nav">
       {% if page.next %}
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &#8594;</a>
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">
+        <span>&larr; Newer</span>
+      </a>
+      {% else %}
+      <span class="terminal">&larr; Newer</span>
+      {% endif %}
+      <span class="sep">&bull;</span>
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">
+        <span>Older &rarr;</span>
+      </a>
+      {% else %}
+      <span class="terminal">Older &rarr;</span>
       {% endif %}
     </div>
   </section>

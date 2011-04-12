@@ -496,12 +496,17 @@ aside section.last {
   line-height: 35px;
 }
 
-.journal .page-nav .previous {
-  float: left;
+.journal .page-nav {
+  text-align: right;
 }
 
-.journal .page-nav .next {
-  float: right;
+.journal .page-nav .sep {
+  padding: 0 5px;
+  opacity: 0.6;
+}
+
+.journal .page-nav .terminal {
+  opacity: 0.6;
 }
 
 
