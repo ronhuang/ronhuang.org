@@ -26,13 +26,6 @@ sections:
  - journal
 projects:
  - steamy
-stylesheets:
- - /assets/themes/default/css/screen.css?671298125=671298125
- - /assets/themes/default/css/print.css
-scripts:
- - http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
- - /assets/themes/default/js/jquery.tweet.min.js
- - /assets/themes/default/js/site.js?671298126=671298126
 colors:
     mono:
         dark: '#111122'
