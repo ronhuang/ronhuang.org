@@ -5,7 +5,7 @@ description: Introducing Embed Tweet, a web widget to easily embed
 tags: [embed tweet, twitter, javascript, widget]
 keywords: [embed tweet, twitter, javascript, widget]
 layout: post
-comments: facebook
+comments: true
 ---
 
 In my previous [post](/2011/04/02/after-april-fools-day/), I needed to

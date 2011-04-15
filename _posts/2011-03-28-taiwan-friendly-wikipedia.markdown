@@ -4,7 +4,7 @@ description: Google Chrome extension to show Wikipedia pages in Traditional Chin
 tags: [wikipedia, taiwan, chrome, extension]
 keywords: [wikipedia, taiwan, chrome, extension]
 layout: post
-comments: facebook
+comments: true
 ---
 
 Although Wikipedia provides menu to switch from different Chinese

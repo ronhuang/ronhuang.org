@@ -4,7 +4,7 @@ description: Rickrolling on April Fools' Day
 tags: [april, fools, 2011, rickrolling]
 keywords: [april, fools, 2011, rickrolling]
 layout: post
-comments: facebook
+comments: true
 ---
 
 Yesterday, I announced my latest research topic on Twitter and
