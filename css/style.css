@@ -316,6 +316,9 @@ body {
   float: left;
   text-align: center;
   font-size: 19px;
+  -webkit-transition: all 0.123s ease-out;
+  -moz-transition: all 0.123s ease-out;
+  transition: all 0.123s ease-out;
 }
 
 #head nav ul li a:hover {
