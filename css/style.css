@@ -226,7 +226,7 @@ body {
 	font: 16px/24px Vollkorn, Cambria, Georgia, dfkai-sb, stkaiti, 標楷體, 华文楷体, serif;
 }
 
-.small, small, .journal div.pubdate, .journal .archive time, #colophon, .home div.recent ul li .line-meta, .journal .page-nav, aside section, aside section h1 {
+.small, small, .journal div.pubdate, .journal .archive time, #foot, .home div.recent ul li .line-meta, .journal .page-nav, aside section, aside section h1 {
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -260,7 +260,7 @@ body {
   min-height: 400px;
 }
 
-#head, article, div.sidebar, #colophon {
+#head, article, div.sidebar, #foot {
   padding-left: 48px;
   padding-right: 48px;
   margin: 0 auto;
@@ -410,15 +410,15 @@ aside section.share .facebook {
   border-radius: 3px;
 }
 
-#colophon {
+#foot {
   margin-top: 100px;
   text-align: center;
-  color: #616161;
+  color: rgb(97,97,97);
 }
 
 .copyright a {
   text-decoration: none;
-  color: #616161;
+  color: rgb(97,97,97);
 }
 
 /* home */
