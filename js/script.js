@@ -18,7 +18,14 @@ $(document).ready(
   }
 );
 
-
+/* For 'Twitter user names with less than two characters' */
+$(document).ready(
+  function () {
+    if ($("#twable")) {
+      $("#twable").tablesorter( {sortList: [[0,0]]} );
+    }
+  }
+);
 
 
 

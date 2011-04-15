@@ -4,10 +4,6 @@ tags:  []
 layout: post
 description: List all Twitter user names with less than two characters
 comments: true
-scripts:
- - /assets/themes/default/js/jquery.tablesorter.min.js
-stylesheets:
- - /assets/themes/default/css/tablesorter.css
 ---
 
 Today I was curious if all the Twitter user names with less than two
@@ -36,15 +32,6 @@ reserved. Maybe there is still chance to create one in the future?
 * Number of user names created in year 2006: 105
 
 * Number of user names suspended: 69
-
-
-<script>
-$(document).ready(function()
-    {
-        $("#twable").tablesorter( {sortList: [[0,0]]} );
-    }
-);
-</script>
 
 
 <table id="twable" class="tablesorter">
