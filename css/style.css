@@ -651,13 +651,64 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
 
   body {
-	width: 252px;
-	padding: 48px 34px 60px;
+  }
+
+  #head, article, div.sidebar, #foot {
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 320px;
+  }
+
+  #head h1 {
+    width: 252px;
+  }
+
+  #head nav {
+    position: static;
+    width: 252px;
+    height: 51px;
+  }
+
+  #head nav ul {
+    float: none;
+  }
+
+  #head nav ul li a {
+    width: 84px;
   }
 
   article {
-    margin-left: 0 0 1.5em;
-    width: 252;
+    padding-top: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  article section {
+    width: 252px;
+  }
+
+  aside {
+    padding: 12px 6px;
+    right: 0px;
+    position: static;
+    width: 252px;
+  }
+
+  aside .colophon, aside .search, aside .advertisement {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* home */
+
+  .home div.colophon {
+    background-image: url(http://www.gravatar.com/avatar/5c3e79143f33d4dd83ad471742705fe4.png?s=80);
+    padding-right: 95px;
+  }
+
+  .home div.recent {
+    width: 252px; /* 3 cols */
+    margin-right: 0px;
   }
 }
 
