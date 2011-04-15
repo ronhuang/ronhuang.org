@@ -437,7 +437,7 @@ aside section.share .facebook {
 }
 
 .home div.recent {
-  width: 252px;
+  width: 252px; /* 3 cols */
   float: left;
   margin-right: 116px; /* col + gutter */
 }
