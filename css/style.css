@@ -508,9 +508,13 @@ aside section.share .facebook {
   margin-left: 0px;
 }
 
-.journal .archive li {
-  display: block;
-  overflow: auto;
+.journal .archive .time {
+  float:left;
+  width:160px;
+}
+
+.journal .archive .post {
+  margin-left:160px;
 }
 
 .journal .archive time {
