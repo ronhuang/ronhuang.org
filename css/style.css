@@ -162,6 +162,7 @@ body, select, input, textarea {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: rgb(23,23,23);
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 a, a:active, a:visited {
@@ -222,7 +223,7 @@ a:hover {
 }
 
 body {
-	font: 16px/24px 'PT Serif', Cambria, Georgia, dfkai-sb, stkaiti, 標楷體, 华文楷体, serif;
+	font: 16px/24px Vollkorn, Cambria, Georgia, dfkai-sb, stkaiti, 標楷體, 华文楷体, serif;
 }
 
 .small, small, .journal div.pubdate, .journal .archive time, #colophon, .home div.recent ul li .line-meta, .journal .page-nav {
@@ -279,7 +280,7 @@ body {
 }
 
 #head a {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
   text-decoration: none;
   line-height: 48px;
   letter-spacing: 1px;
