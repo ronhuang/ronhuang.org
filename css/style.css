@@ -377,6 +377,7 @@ aside section {
 }
 
 aside section h1 {
+  margin-bottom: 0.5em;
 }
 
 aside section.share {
