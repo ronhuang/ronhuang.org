@@ -607,6 +607,10 @@ px      68    160    252    344    436    528    620    712    */
     width: 712px;
   }
 
+  #head nav {
+    right: 28px;
+  }
+
   article section {
     width: 436px;
   }
