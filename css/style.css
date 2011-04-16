@@ -759,14 +759,93 @@ px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-  body {
-	width: 436px;
-	padding: 36px 22px 48px;
+  #head, article, div.sidebar, #foot {
+    padding-left: 22px;
+    padding-right: 22px;
+    width: 436px;
+  }
+
+  #head h1 {
+    width: 436px;
+  }
+
+  #head nav {
+    position: static;
+    width: 344px;
+    margin-left: 92px;
+    height: 51px;
+  }
+
+  #head nav ul {
+    float: none;
+  }
+
+  #head nav ul li a {
+    width: 84px;
   }
 
   article {
-    margin-left: 0 0 1.5em;
-    width: 436;
+    padding-top: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  article section {
+    width: 436px;
+  }
+
+  aside {
+    margin: 12px 0px 12px 0px;
+    padding: 0;
+    right: 0px;
+    position: static;
+    width: 436px;
+  }
+
+  aside .colophon, aside .search, aside .advertisement {
+    display: none;
+    visibility: hidden;
+  }
+
+  .copyright {
+    width: 436px;
+  }
+
+  /* home */
+
+  .home div.colophon {
+    background-image: url(http://www.gravatar.com/avatar/5c3e79143f33d4dd83ad471742705fe4.png?s=80);
+    padding-right: 95px;
+  }
+
+  .home div.recent {
+    width: 436px; /* 5 cols */
+    margin-right: 0px;
+  }
+
+  /* projects */
+  .projects h3 {
+    float: none;
+    width: 436px;
+  }
+
+  .projects ul {
+    margin-left: 0px;
+  }
+
+  /* journal */
+  .journal .archive .time {
+    float: none;
+    width: 436px;
+  }
+
+  .journal .archive time {
+    float: none;
+  }
+
+  .journal .archive .post {
+    margin-left: 0px;
+    margin-bottom: 24px;
   }
 }
 
