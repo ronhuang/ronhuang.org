@@ -837,7 +837,7 @@ pre, code, tt {
   line-height: 1.5em;
 }
 pre {
-  width: 650px;
+  width: 620px; /* 7 cols */
   padding: 15px;
   padding-right: 0px;
   overflow: auto;
