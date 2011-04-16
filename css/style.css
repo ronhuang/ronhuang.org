@@ -300,7 +300,6 @@ body {
 
 #head nav ul {
   float: right;
-  width: 252px;
   display: inline;
 }
 
@@ -669,13 +668,10 @@ px      68    160    252    */
   }
 
   #head nav {
-    position: static;
+    position: relative;
     width: 252px;
     height: 51px;
-  }
-
-  #head nav ul {
-    float: none;
+    right: 0px;
   }
 
   #head nav ul li a {
