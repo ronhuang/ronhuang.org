@@ -658,9 +658,6 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 
-  body {
-  }
-
   #head, article, div.sidebar, #foot {
     padding-left: 34px;
     padding-right: 34px;
@@ -722,6 +719,31 @@ px      68    160    252    */
   .home div.recent {
     width: 252px; /* 3 cols */
     margin-right: 0px;
+  }
+
+  /* projects */
+  .projects h3 {
+    float: none;
+    width: 252px;
+  }
+
+  .projects ul {
+    margin-left: 0px;
+  }
+
+  /* journal */
+  .journal .archive .time {
+    float: none;
+    width: 252px;
+  }
+
+  .journal .archive time {
+    float: none;
+  }
+
+  .journal .archive .post {
+    margin-left: 0px;
+    margin-bottom: 24px;
   }
 }
 
