@@ -36,7 +36,7 @@ script.
 
 The script above will render the following tweet.
 
-<div style="width:85%">
+<div>
 <script src="http://inmate.ronhuang.org/tweet/20" type="text/javascript"></script>
 </div>
 
@@ -54,7 +54,7 @@ above script.
     <script src="http://inmate.ronhuang.org/tweet/13364298974" type="text/javascript"></script>
     <script src="http://inmate.ronhuang.org/tweet/21301896997" type="text/javascript"></script>
 
-<div style="width:85%">
+<div>
 <script src="http://inmate.ronhuang.org/tweet/839088619" type="text/javascript"></script>
 <br/>
 <script src="http://inmate.ronhuang.org/tweet/13364298974" type="text/javascript"></script>
