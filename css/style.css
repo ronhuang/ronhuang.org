@@ -471,26 +471,26 @@ aside section.share .facebook {
   width: 160px;
 }
 
-.projects ul {
+.projects article ul {
   list-style: none;
   margin-left: 160px;
 }
 
-.projects ul li {
+.projects article ul li {
   display: block;
   overflow: auto;
 }
 
-.projects ul li a.name {
+.projects article ul li a.name {
   display: block;
   border-bottom: 1px dotted rgb(60,60,60);
 }
 
-.projects ul li a.name:hover {
+.projects article ul li a.name:hover {
   border-bottom: 1px solid rgb(60,60,60);
 }
 
-.projects ul li span {
+.projects article ul li span {
   display: block;
   font-style: italic;
   margin-top: 5px;
@@ -727,7 +727,7 @@ px      68    160    252    */
     width: 252px;
   }
 
-  .projects ul {
+  .projects article ul {
     margin-left: 0px;
   }
 
