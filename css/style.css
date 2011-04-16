@@ -419,6 +419,10 @@ aside section.share .facebook {
   color: rgb(97,97,97);
 }
 
+.copyright {
+  width: 896px;
+}
+
 .copyright a {
   text-decoration: none;
   color: rgb(97,97,97);
@@ -619,6 +623,10 @@ px      68    160    252    344    436    528    620    712    */
     right: 28px;
   }
 
+  .copyright {
+    width: 712px;
+  }
+
   /* home */
 
   .home div.colophon {
@@ -697,6 +705,10 @@ px      68    160    252    */
   aside .colophon, aside .search, aside .advertisement {
     display: none;
     visibility: hidden;
+  }
+
+  .copyright {
+    width: 252px;
   }
 
   /* home */
