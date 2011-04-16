@@ -382,11 +382,11 @@ aside section h1 {
   margin-bottom: 0.5em;
 }
 
-aside section.share {
+aside .share {
   padding-bottom: 6px;
 }
 
-aside section.share .facebook {
+aside .share .facebook {
   vertical-align: 1px;
 }
 
@@ -410,6 +410,11 @@ aside section.share .facebook {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+
+#sticky {
+  display: none;
+  visibility: hidden;
 }
 
 #foot {
@@ -699,6 +704,22 @@ px      68    160    252    */
   aside .colophon, aside .search, aside .advertisement {
     display: none;
     visibility: hidden;
+  }
+
+  #foot {
+    margin-bottom: 75px;
+  }
+
+  #sticky {
+    display: block;
+    visibility: visible;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    background-color: rgb(23,23,23);
+    z-index: 800;
   }
 
   .copyright {
