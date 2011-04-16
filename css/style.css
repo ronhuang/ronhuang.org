@@ -412,7 +412,7 @@ aside .share .facebook {
   border-radius: 3px;
 }
 
-#sticky {
+#mobile-advertisement {
   display: none;
   visibility: hidden;
 }
@@ -707,18 +707,18 @@ px      68    160    252    */
   }
 
   #foot {
-    margin-bottom: 75px;
+    margin-top: 30px;
+    margin-bottom: 25px;
   }
 
-  #sticky {
+  #mobile-advertisement {
     display: block;
     visibility: visible;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    margin-left: -160px;
+    margin: 0 auto;
+    position: relative;
     width: 320px;
-    background-color: rgb(23,23,23);
+    height: 50px;
+    background-color: rgb(97,97,97);
     z-index: 800;
   }
 
