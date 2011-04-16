@@ -1,43 +1,25 @@
+---
+layout: nil
+---
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Developer: Ron Huang
+  Site: http://ronhuang.org/
+  Twitter: @ronhuang
+  Location: Taipei, Taiwan
 
 /* THANKS */
-  Names (& URL): 
+  My wife: Grace Tsao
+  Site: http://grace.hng.tw/
+  Twitter: @ParameciumT
+
+  UI design inspiration: Michael Monteleone
+  Site: http://michaelmonteleone.net/
 
 /* SITE */
+  Last update: {{ site.time | date: "%B %d, %Y" }}
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
-  
-
-                                    
-                               -o/-                       
-                               +oo//-                     
-                              :ooo+//:                    
-                             -ooooo///-                   
-                             /oooooo//:                   
-                            :ooooooo+//-                  
-                           -+oooooooo///-                 
-           -://////////////+oooooooooo++////////////::    
-            :+ooooooooooooooooooooooooooooooooooooo+:::-  
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-   
-                     -:+ooooooooooooooooo+:://////:--     
-                       /ooooooooooooooooo+//////:-        
-                      -ooooooooooooooooooo////-           
-                      /ooooooooo+oooooooooo//:            
-                     :ooooooo+/::/+oooooooo+//-           
-                    -oooooo/::///////+oooooo///-          
-                    /ooo+::://////:---:/+oooo//:          
-                   -o+/::///////:-      -:/+o+//-         
-                   :-:///////:-            -:/://         
-                     -////:-                 --//:        
-                       --                       -:        
+  Software: Emacs, jekyll, GIMP
