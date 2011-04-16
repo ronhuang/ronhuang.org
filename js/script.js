@@ -19,13 +19,41 @@ $(document).ready(
 );
 
 /* For 'Twitter user names with less than two characters' */
-$(document).ready(
-  function () {
-    if ($("#twable")) {
-      $("#twable").tablesorter( {sortList: [[0,0]]} );
-    }
+$(document).ready(function () {
+  if ($("#twable").length === 0) {
+    return;
   }
-);
+
+  $("#twable").tablesorter( {sortList: [[0,0]]} );
+});
+
+/* For Facebook Comments resize */
+$(document).ready(function () {
+  if ($('.comment #fb-root').length === 0) {
+    return;
+  }
+
+  var timeout = function () {
+    var frm = $('.comment .fb_iframe_widget iframe');
+    if (frm.length !== 0) {
+      frm.width($('article section').width());
+    } else {
+      setTimeout(function () { timeout(); }, 500);
+    }
+  };
+
+  timeout();
+});
+
+$(window).resize(function () {
+  if ($('.comment .fb_iframe_widget iframe').length === 0) {
+    return;
+  }
+
+  if ($('.comment .fb_iframe_widget iframe').width() != $('article section').width()) {
+    $('.comment .fb_iframe_widget iframe').width($('article section').width());
+  }
+});
 
 
 
