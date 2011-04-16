@@ -664,7 +664,7 @@ px      68    160    252    */
   #head, article, div.sidebar, #foot {
     padding-left: 34px;
     padding-right: 34px;
-    width: 320px;
+    width: 252px;
   }
 
   #head h1 {
@@ -696,7 +696,8 @@ px      68    160    252    */
   }
 
   aside {
-    padding: 12px 6px;
+    margin: 12px 0px 12px 0px;
+    padding: 0;
     right: 0px;
     position: static;
     width: 252px;
