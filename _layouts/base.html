@@ -25,7 +25,6 @@
   <meta name="author" content="{{ site.author.name }}">
 
   {% if page.previous or page.next %}
-  <!-- Document collection -->
   <link rel="index" title="Journal &mdash; Ron Huang" href="{{ site.url }}/journal/">
   {% if page.previous %}
   <link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}">
@@ -36,10 +35,8 @@
   {% endif %}
   <link type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml"/>
 
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Open Graph tags -->
   {% if page.title %}
   <meta property="og:type" content="article"/>
   <meta property="og:title" content="{{ page.title }} &mdash; {{ site.title }}"/>
@@ -54,16 +51,13 @@
   <meta property="fb:admins" content="581056929"/>
   <meta property="fb:app_id" content="185154174861978">
 
-  <!-- Feed -->
   <link rel="alternate" type="application/atom+xml" title="{{ site.author.name }}" href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
 
-  <!-- OpenID -->
   <link href="{{ site.author.openid.server }}" rel="openid2.provider" />
   <link href="{{ site.author.openid.delegate }}" rel="openid2.local_id" />
   <link href="{{ site.author.openid.server }}" rel="openid.server" />
   <link href="{{ site.author.openid.delegate }}" rel="openid.delegate" />
 
-  <!-- CSS: implied media="all" -->
   <link rel="stylesheet" href="/css/style.css">
   <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css" >
@@ -77,12 +71,8 @@
   <link rel="stylesheet" href="{{ sheet }}">
   {% endfor %}
 
-  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
-  <link rel="stylesheet" media="handheld" href="/css/handheld.css">  -->
-
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="/js/libs/modernizr-1.7.min.js"></script>
-
 </head>
 
 <body class="{{ page.bodyclass }}">
@@ -204,8 +194,6 @@
     <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
   <![endif]-->
 
-
-  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
   <script>
     var _gaq=[["_setAccount","UA-7044154-2"],["_trackPageview"]];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
