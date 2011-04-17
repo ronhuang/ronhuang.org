@@ -4,6 +4,6 @@ layout: nil
 <?xml version="1.0"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>{{ site.title }}</ShortName>
-  <Description>Search through articles posted on {{ site.url }}</Description>
+  <Description>Search through articles posted on {{ site.author.name }}'s website</Description>
   <Url type="text/html" method="get" template="http://www.google.com/cse?cx=partner-pub-2284163765913634%3A9203988230&amp;ie=UTF-8&amp;q={searchTerms}"/>
 </OpenSearchDescription>
