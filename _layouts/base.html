@@ -24,6 +24,17 @@
   <meta name="description" content="{{ description }}">
   <meta name="author" content="{{ site.author.name }}">
 
+  {% if page.previous or page.next %}
+  <!-- Document collection -->
+  <link rel="index" title="Journal &mdash; Ron Huang" href="{{ site.url }}/journal/">
+  {% if page.previous %}
+  <link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}">
+  {% endif %}
+  {% if page.next %}
+  <link rel="next" title="{{ page.next.title }}" href="{{ site.url }}{{ page.next.url }}">
+  {% endif %}
+  {% endif %}
+
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

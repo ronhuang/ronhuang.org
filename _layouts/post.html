@@ -13,7 +13,7 @@ bodyclass: journal
     {{ content }}
     <div class="page-nav">
       {% if page.next %}
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next" rel="next">
         <span>&larr; Newer</span>
       </a>
       {% else %}
@@ -21,7 +21,7 @@ bodyclass: journal
       {% endif %}
       <span class="sep">&bull;</span>
       {% if page.previous %}
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous" rel="prev">
         <span>Older &rarr;</span>
       </a>
       {% else %}
