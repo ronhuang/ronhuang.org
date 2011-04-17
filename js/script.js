@@ -18,14 +18,18 @@ $(document).ready(
   }
 );
 
+
 /* For 'Twitter user names with less than two characters' */
 $(document).ready(function () {
   if ($("#twable").length === 0) {
     return;
   }
 
-  $("#twable").tablesorter( {sortList: [[0,0]]} );
+  $("#twable").dataTable({
+    sPaginationType: "full_numbers"
+  });
 });
+
 
 /* For Facebook Comments resize */
 $(document).ready(function () {
@@ -54,23 +58,3 @@ $(window).resize(function () {
     $('.comment .fb_iframe_widget iframe').width($('article section').width());
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

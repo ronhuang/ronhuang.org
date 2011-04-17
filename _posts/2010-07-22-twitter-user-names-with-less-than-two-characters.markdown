@@ -4,6 +4,10 @@ tags:  []
 layout: post
 description: List all Twitter user names with less than two characters
 comments: true
+scripts:
+  - /js/libs/jquery.dataTables-1.7.6.min.js
+stylesheets:
+  - /css/table.css
 ---
 
 Today I was curious if all the Twitter user names with less than two
