@@ -271,18 +271,16 @@ body {
 #head h1 {
   margin: 0;
   padding-top: 3px;
-  line-height: 33px;
   font-weight: normal;
   background-color: rgb(23,23,23);
   width: 160px;
   height: 51px;
+  line-height: 48px;
   text-align: center;
 }
 
 #head a {
   font-family: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  line-height: 48px;
   letter-spacing: 1px;
   border-bottom: 0;
 }
@@ -309,12 +307,12 @@ body {
 
 #head nav ul li a {
   width: 80px;
-  height: 51px;
+  height: 41px;
+  line-height: 38px;
   color: rgb(23,23,23);
   text-transform: uppercase;
   float: left;
   text-align: center;
-  font-size: 19px;
   -webkit-transition: all 0.123s ease-out;
   -moz-transition: all 0.123s ease-out;
   transition: all 0.123s ease-out;
