@@ -410,6 +410,10 @@ aside .share .facebook {
   border-radius: 3px;
 }
 
+#cse-search-box .submit:hover {
+  background-color: rgb(212,212,212);
+}
+
 #mobile-advertisement {
   display: none;
   visibility: hidden;
