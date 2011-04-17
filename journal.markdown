@@ -1,5 +1,6 @@
 ---
 title: Journal
+description: Archive of all my posts
 layout: simple
 bodyclass: journal
 ---

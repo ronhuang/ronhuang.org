@@ -1,5 +1,6 @@
 ---
 title: Hello, World
+description: The first post
 tags: []
 layout: post
 comments: true

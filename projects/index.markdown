@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: List of projects that I am involved
 layout: simple
 bodyclass: projects
 ---

@@ -1,5 +1,6 @@
 ---
 title: About
+description: A little bit more information about Ron Huang
 layout: simple
 bodyclass: about
 ---

@@ -1,5 +1,6 @@
 ---
 title: Testing Facebook Comments
+description: A simple post to test out Facebook Comments system
 tags: []
 layout: post
 comments: facebook
