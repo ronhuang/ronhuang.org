@@ -487,11 +487,6 @@ aside .share .facebook {
 
 .projects article ul li a.name {
   display: block;
-  border-bottom: 1px dotted rgb(60,60,60);
-}
-
-.projects article ul li a.name:hover {
-  border-bottom: 1px solid rgb(60,60,60);
 }
 
 .projects article ul li span {
