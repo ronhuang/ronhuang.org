@@ -1,0 +1,106 @@
+
+#head, article, div.sidebar, #foot {
+  padding-left: 34px;
+  padding-right: 34px;
+  width: 252px;
+}
+
+#head h1 {
+  width: 252px;
+}
+
+#head a {
+  letter-spacing: -1px;
+}
+
+#head nav {
+  position: relative;
+  width: 252px;
+  height: 51px;
+  right: 0px;
+}
+
+#head nav ul li a {
+  width: 84px;
+}
+
+article {
+  padding-top: 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+article section {
+  width: 252px;
+}
+
+aside {
+  margin: 12px 0px 12px 0px;
+  padding: 0;
+  right: 0px;
+  position: static;
+  width: 252px;
+}
+
+aside .colophon, aside .search, aside .advertisement {
+  display: none;
+  visibility: hidden;
+}
+
+#foot {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+#mobile-advertisement {
+  display: block;
+  visibility: visible;
+  margin: 0 auto;
+  position: relative;
+  width: 320px;
+  height: 50px;
+  background-color: rgb(97,97,97);
+  z-index: 800;
+}
+
+.copyright {
+  width: 252px;
+}
+
+/* home */
+
+.home div.colophon {
+  background-image: none;
+  padding-right: 0px;
+}
+
+.home div.recent {
+  width: 252px; /* 3 cols */
+  margin-right: 0px;
+}
+
+/* projects */
+
+.projects h3 {
+  float: none;
+  width: 252px;
+}
+
+.projects article ul {
+  margin-left: 0px;
+}
+
+/* journal */
+.journal .archive .time {
+  float: none;
+  width: 252px;
+}
+
+.journal .archive time {
+  float: none;
+}
+
+.journal .archive .post {
+  margin-left: 0px;
+  margin-bottom: 24px;
+}
