@@ -38,7 +38,7 @@ reserved. Maybe there is still chance to create one in the future?
 * Number of user names suspended: 69
 
 
-<table id="twable" class="tablesorter">
+<table id="twable" class="datatables_custom">
 <thead><tr>
 <th>User name</th>
 <th>Name</th>

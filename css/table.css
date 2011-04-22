@@ -26,6 +26,18 @@
  *     ../images/ - relative to this CSS file.
  */
 
+/* My own custom style. */
+.datatables_custom {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.datatables_custom thead tr th, .datatables_custom tfoot tr th {
+  border: 1px solid #FFF;
+  vertical-align: middle;
+}
+
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * DataTables features
  */
