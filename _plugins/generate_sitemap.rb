@@ -73,7 +73,7 @@ module Jekyll
 
     # Returns the XML header.
     def generate_header
-      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/sitemap.xsl\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"
     end
 
     # Returns a string containing the the XML entries.
@@ -82,27 +82,37 @@ module Jekyll
     def generate_content(site)
       result   = ''
 
-      base_url = site.config['base_url'] || BASE_URL
+      base_url = site.config['url'] || BASE_URL
 
       # First, try to find any stand-alone pages.
       site.pages.each{ |page|
+        next if page.data['sitemap'] == false
+
         path     = page.subfolder + '/' + page.name
         mod_date = File.mtime(site.source + path)
+        freq = "weekly"
+        priority = 0.8
+
+        url = page.subfolder + page.url
 
         # Remove the trailing 'index.html' if there is one, and just output the folder name.
-        if path=~/index.html$/
-          path = path[0..-11]
+        if url =~ /index.html$/
+          url = url[0..-11]
         end
 
-        unless path =~/error/
-          result += entry(base_url, path, mod_date)
+        # Change priority for homepage
+        if url == "/"
+          freq = "daily"
+          priority = 1.0
         end
+
+        result += entry(base_url, url, mod_date, freq, priority)
       }
 
       # Next, find all the posts.
       posts = site.site_payload['site']['posts']
       for post in posts do
-        result += entry(base_url, post.id, post.date)
+        result += entry(base_url, post.url, post.date, "monthly", 0.6)
       end
 
       result
@@ -117,13 +127,15 @@ module Jekyll
     #
     #  +path+ is the URL path to the page.
     #  +date+ is the date the file was modified (in the case of regular pages), or published (for blog posts).
-    def entry(base_url, path, date)
+    def entry(base_url, path, date, freq, priority)
         # Force extensions to .html from markdown, textile.
         path = path.gsub(/\.(markdown|textile)$/i, '.html')
       "
   <url>
-      <loc>#{base_url}#{path}</loc>
-      <lastmod>#{date.strftime("%Y-%m-%d")}</lastmod>
+    <loc>#{base_url}#{path}</loc>
+    <lastmod>#{date.xmlschema}</lastmod>
+    <changefreq>#{freq}</changefreq>
+    <priority>#{priority}</priority>
   </url>"
     end
 

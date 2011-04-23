@@ -1,5 +1,6 @@
 ---
 layout: nil
+sitemap: false
 ---
 /* the humans responsible & colophon */
 /* humanstxt.org */
