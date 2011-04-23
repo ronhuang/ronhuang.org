@@ -23,7 +23,9 @@ is enabled (will automatically redirect.)
 
 Some screenshots:
 
-<embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="400" height="267" flashvars="host=picasaweb.google.com&captions=1&noautoplay=1&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fronhuang%2Falbumid%2F5588977016601805873%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCOz5t_zzqaXO4AE%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+![Screenshot](https://lh3.googleusercontent.com/_WOSBJMG52nM/TZAJjCjeqWI/AAAAAAAAO2c/upTPmvvmqe8/s800/tfw-1.png "Click on the icon to redirect")
+![Screenshot](https://lh5.googleusercontent.com/_WOSBJMG52nM/TZAJjPhoa5I/AAAAAAAAO2k/Isv2gs9TWZo/s800/tfw-2.png "Wikipedia in Traditional Chinese (Taiwan)")
+![Screenshot](https://lh4.googleusercontent.com/_WOSBJMG52nM/TZAJjEXDVGI/AAAAAAAAO2g/wp28RVRaP7I/s800/tfw-3.png "Options page")
 
 You can install Taiwan Friendly Wikipedia at [Chrome Web
 Store](https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob). The
