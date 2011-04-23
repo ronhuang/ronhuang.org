@@ -435,6 +435,10 @@ aside .share .facebook {
   color: rgb(97,97,97);
 }
 
+em {
+  font-style: italic;
+}
+
 /* home */
 
 .home div.colophon {
