@@ -226,7 +226,7 @@ body {
 	font: 16px/24px Vollkorn, Cambria, Georgia, dfkai-sb, stkaiti, 標楷體, 华文楷体, serif;
 }
 
-.small, small, .journal div.pubdate, .journal .archive time, #foot, .home div.recent ul li .line-meta, .journal .page-nav, aside section, aside section h1 {
+.small, small, .journal div.pubdate, .journal .archive time, #foot, .home div.recent ul li .line-meta, .journal .page-nav, aside section, aside section h1, article .footnotes p {
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -357,6 +357,10 @@ article p, article blockquote, article ul, article ol, article h1, article h2, a
 
 article p {
   text-align: justify;
+}
+
+article .footnotes p {
+  margin-bottom: 0px;
 }
 
 aside {
