@@ -17,7 +17,7 @@ Recently, I redesigned my website. It is based on
 - Supported [OpenSearch][9]. Viewers can search my website directly
   from Google Chrome's Omnibar, similar to [this][10].
 - Changed the font for headers to [Ubuntu][5].
-- Changed the font for contents to [Vollkorn][6].
+- Changed the font for contents to <span style="text-decoration:line-through">[Vollkorn][6]</span> [Tinos][17].
 - Updated favicon. [Grace][11] made the icon for me based on one of
   our marriage photos.
 - Used [DataTables][7] instead of [tablesorter][8] to display
@@ -48,3 +48,4 @@ Please let me know if you have any comments or suggestions. Thank you.
 [14]: /notfound/
 [15]: http://creativecommons.org/licenses/by-sa/3.0/
 [16]: http://en.wikipedia.org/wiki/Internet_Explorer_Mobile#Internet_Explorer_Mobile_7
+[17]: http://www.google.com/webfonts/family?family=Tinos
