@@ -21,6 +21,9 @@ bodyclass: projects
  * <a href="http://twipa.ronhuang.org/" class="name">Twitter Profile Timeline</a>
    <span>See when your friends created their Twitter account.</span>
 
+ * <a href="/2011/05/08/introducing-calennar/" class="name">Calennar</a>
+   <span>Seminar schedules in iCalendar format.</span>
+
 ### JavaScript
 
  * <a href="https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob" class="name">Taiwan Friendly Wikipedia</a>
