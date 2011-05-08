@@ -26,12 +26,6 @@ sections:
  - journal
 projects:
  - steamy
-colors:
-    mono:
-        dark: '#111122'
-        medium: '#555555'
-        light: '#CCCCBB'
-    bg: '#EAF1F4'
 
 pygments: true
 permalink: pretty
@@ -39,5 +33,4 @@ exclude:
  - Rakefile
  - README.markdown
  - .git
- - static
 markdown: kramdown
