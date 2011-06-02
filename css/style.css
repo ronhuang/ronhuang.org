@@ -359,6 +359,10 @@ article p {
   text-align: justify;
 }
 
+article img {
+  max-width: 100%;
+}
+
 article .footnotes p {
   margin-bottom: 0px;
 }
