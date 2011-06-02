@@ -11,22 +11,35 @@ bodyclass: journal
       <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>Published on {{ page.date | date: "%A, %B %d, %Y" }}</time>
     </div>
     {{ content }}
-    <div class="page-nav">
-      {% if page.next %}
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next" rel="next">
-        <span>&larr; Newer</span>
-      </a>
-      {% else %}
-      <span class="terminal">&larr; Newer</span>
-      {% endif %}
-      <span class="sep">&bull;</span>
-      {% if page.previous %}
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous" rel="prev">
-        <span>Older &rarr;</span>
-      </a>
-      {% else %}
-      <span class="terminal">Older &rarr;</span>
-      {% endif %}
+    <div>
+      <span class="share">
+        <span class="twitter">
+          <a href="http://twitter.com/share" class="twitter-share-button" data-via="ronhuang">Tweet</a>
+        </span>
+        <span class="plusone">
+          <g:plusone size="medium"></g:plusone>
+        </span>
+        <span class="facebook">
+          <fb:like href="{{ site.url }}{{ page.url }}" layout="button_count" show_faces="false" width="50"></fb:like>
+        </span>
+      </span>
+      <span class="page-nav">
+        {% if page.next %}
+        <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next" rel="next">
+          <span>&larr; Newer</span>
+        </a>
+        {% else %}
+        <span class="terminal">&larr; Newer</span>
+        {% endif %}
+        <span class="sep">&bull;</span>
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous" rel="prev">
+          <span>Older &rarr;</span>
+        </a>
+        {% else %}
+        <span class="terminal">Older &rarr;</span>
+        {% endif %}
+      </span>
     </div>
   </section>
 

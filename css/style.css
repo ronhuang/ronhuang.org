@@ -389,12 +389,8 @@ aside section h1 {
   margin-bottom: 0.5em;
 }
 
-aside .share {
-  padding-bottom: 6px;
-}
-
-aside .share .facebook {
-  vertical-align: 2px;
+aside section.colophon .follow {
+  margin-top: 12px;
 }
 
 #cse-search-box .query {
@@ -547,7 +543,7 @@ em {
 }
 
 .journal .page-nav {
-  text-align: right;
+  float: right;
 }
 
 .journal .page-nav .sep {
@@ -557,6 +553,14 @@ em {
 
 .journal .page-nav .terminal {
   opacity: 0.6;
+}
+
+.journal .share {
+  padding-bottom: 6px;
+}
+
+.journal .share .facebook {
+  vertical-align: 2px;
 }
 
 /* search */
