@@ -27,6 +27,6 @@ to my [CV](/cv/).
 I enjoy playing video game, reading fiction, and writing hobbyist
 software. Most of my software projects are host at
 [GitHub](http://github.com/ronhuang). You can also find me at
-[Twitter](http://twitter.com/ronhuang), [Google
-Profile](http://profiles.google.com/ronhuang) and
+[Twitter](http://twitter.com/ronhuang),
+[Google+](https://plus.google.com/112611142845744074907) and
 [Facebook](http://facebook.com/ronhuang).
