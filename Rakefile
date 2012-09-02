@@ -16,7 +16,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzhavz _site/ ronhuang@ewok.ronhuang.org:http/nginx'
+  sh 'rsync -rtzhavz _site/ ronhuang@rots.hng.tw:/usr/local/www/ronhuang.org'
 end
 
 desc 'Begin a new post'
