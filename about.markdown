@@ -10,23 +10,28 @@ bodyclass: about
 I am Ron Huang, also known as Yih-Lun Huang or 黃翊倫. I am
 happily married to [Grace Tsao](http://grace.hng.tw/).
 
-Currently, I am a graduate student pursuing PhD degree at Department
-of Electrical & Computer Engineering, National University of
-Singapore. My supervisor is [Assist. Prof. Tim
-Marsh](http://ap3.fas.nus.edu.sg/fass/cnmmt/).
+Currently, I am a software engineer at Generalplus Technology Inc.
+Before that, I was a graduate student pursuing PhD degree at
+Department of Electrical & Computer Engineering, National University
+of Singapore. My supervisor was [Dr. Tim Marsh][1]. However, it was
+suspended due to [one][2] of the most wonderful event in my life.
 
 My research interest includes human-computer interaction, end-user
-programming, software engineering, and serious games. I am currently
-working on patterns of user experience for software programmers, a
+programming, software engineering, and serious games. I was
+working on patterns of user experience for software developers, a
 collection of the best practices within the user experience design
 domain. But instead of targeting their normal audiences, the
 interaction designers, these patterns are transcribed in language
-familiar to software programmers. For more information, please refer
-to my [CV](/cv/).
+familiar to software developers. For more information, please refer
+to my [CV](/cv/) or [resume][6].
 
 I enjoy playing video game, reading fiction, and writing hobbyist
-software. Most of my software projects are host at
-[GitHub](http://github.com/ronhuang). You can also find me at
-[Twitter](http://twitter.com/ronhuang),
-[Google+](https://plus.google.com/112611142845744074907) and
-[Facebook](http://facebook.com/ronhuang).
+software. Most of my software projects are host on [GitHub][3]. You
+can also find me at [Twitter][4] and [Google+][5].
+
+[1]: http://www.jcu.edu.au/business/staff/academic/JCU_087031.html
+[2]: http://instagram.com/p/HB8u2MgqcC/
+[3]: http://github.com/ronhuang
+[4]: http://twitter.com/ronhuang
+[5]: https://plus.google.com/112611142845744074907
+[6]: http://static.ronhuang.org/pub/resume.pdf
