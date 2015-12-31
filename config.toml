@@ -1,0 +1,38 @@
+baseurl = "http://ron.hng.tw/"
+languageCode = "zh-TW"
+hasCJKLanguage = true
+title = "Ron Huang"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+disqusShortname = "ronhuang"
+googleAnalytics = "UA-7044154-2"
+paginate = 5
+theme = "casper"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Personal site of Ron Huang, software developer from Taiwan"
+  cover = "/img/cover.jpg"
+  author = "Ron Huang"
+  authorlocation = "Taipei, Taiwan"
+  authorwebsite = "http://ron.hng.tw/"
+  bio = "Father, software developer, and Hewlett Packard Enterprise employee."
+  logo = "/img/logo.png"
+  githubName = "ronhuang"
+  twitterName = "ronhuang"
+  linkedinName = "ronhuang"
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
