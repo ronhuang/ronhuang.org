@@ -1,4 +1,3 @@
-{{ $baseurl := .Site.BaseURL }}
 <article class="post {{ .Section }}">
     <header class="post-header">
         <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
@@ -9,9 +8,9 @@
     <footer class="post-meta">
         {{$author := index .Site.Data.authors .Params.author }}
         {{ if isset $author "thumbnail" }}
-            <img class="author-thumb" src="{{ .Site.BaseURL }}{{ $author.thumbnail }}" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="{{ $author.thumbnail }}" alt="Author image" nopin="nopin" />
         {{else if .Site.Params.logo }}
-            <img class="author-thumb" src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="{{.Site.Params.logo}}" alt="Author image" nopin="nopin" />
         {{end}}
         {{if and (ne .Params.author .Site.Params.author) .Params.author}}
         {{$author := index .Site.Data.authors .Params.author }}
@@ -21,7 +20,7 @@
         {{end}}
         {{if .Params.tags }}on
             {{ range $index, $tag := .Params.tags }}
-                <a href="{{$baseurl}}tags/{{ $tag | urlize }}/">#{{ $tag }}</a>,
+                <a href="/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>,
             {{ end }}
         {{end}}
         <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
