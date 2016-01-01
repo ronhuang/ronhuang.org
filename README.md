@@ -1,4 +1,4 @@
-# http://ron.hng.tw/ [![wercker status][wsimg]][ws]
+# ron.hng.tw [![wercker status][wsimg]][ws]
 
 This is the source of my [personal site], managed by [Hugo].
 
