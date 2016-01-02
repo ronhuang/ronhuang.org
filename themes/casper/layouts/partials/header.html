@@ -51,6 +51,8 @@
     <link rel="canonical" href="{{ .Permalink }}" />
 
     {{ template "_internal/google_analytics.html" . }}
+    {{with .Site.Params.facebookAppId}}<meta property="fb:app_id" content="{{ . }}" />{{end}}
+    {{with .Site.Params.facebookAdmins}}<meta property="fb:admins" content="{{ . }}" />{{end}}
 
     {{ if .Site.Params.customHeaderPartial }}
         {{ partial .Site.Params.customHeaderPartial . }}

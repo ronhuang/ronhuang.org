@@ -23,6 +23,8 @@ theme = "casper"
   githubName = "ronhuang"
   twitterName = "ronhuang"
   linkedinName = "ronhuang"
+  facebookAppId = "1160775493950960"
+  facebookAdmins = "581056929"
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
