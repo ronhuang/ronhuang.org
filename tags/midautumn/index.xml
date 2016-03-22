@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Midautumn on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/midautumn/</link>
+    <description>Recent content in Midautumn on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 31 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/midautumn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>久違的中秋烤肉</title>
+      <link>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</link>
+      <pubDate>Wed, 31 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</guid>
+      <description>&lt;p&gt;睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣，
+歡迎攜帶女伴一起參加唷。男伴就不用勉強了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/logo-hover.png&#34; alt=&#34;中秋烤肉的標誌&#34; title=&#34;中秋烤肉的標誌&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年仍然有一個新的網站供各位推薦中秋烤肉的物品：&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;。
+今年仍是架在 Google App Engine 上，後端是用 Python 寫的，前端是 HTML +
+JavaScript + CSS 。不過今年的網站與 &lt;a href=&#34;http://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; 整合較多，而且多了成就系統。
+歡迎各位上去玩玩，蒐集各式各樣的成就。&lt;/p&gt;
+
+&lt;p&gt;以下是一些成就的預覽：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/cloony-toro.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/continuous-visit-count-7.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/like-count-1.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/starlight-warrior.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;目前時間還未定，可以在下面的留言討論，
+或是在 &lt;a href=&#34;http://www.facebook.com/apps/application.php?id=271148119565356&#34;&gt;Facebook 的粉絲頁&lt;/a&gt; 上留言（好像要先讚那頁才能留言。）
+至於材料的準備，應該是在當天晚上一起來我家附近的全聯或是頂好超市採購吧。&lt;/p&gt;
+
+&lt;p&gt;特別一提的是，&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;的標誌是由我&lt;a href=&#34;http://grace.hng.tw/&#34;&gt;老婆&lt;/a&gt;設計的。&lt;/p&gt;
+
+&lt;p&gt;另外附上往年中秋烤肉的網站。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/y2006&#34;&gt;Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/midautumn2007&#34;&gt;第二屆Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apps.facebook.com/adieu-fb/&#34;&gt;第一屆Post-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

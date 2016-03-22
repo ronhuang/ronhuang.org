@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ron Huang</title>
+    <link>https://ron.hng.tw/categories/projects/</link>
+    <description>Recent content in Projects on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 31 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>久違的中秋烤肉</title>
+      <link>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</link>
+      <pubDate>Wed, 31 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</guid>
+      <description>&lt;p&gt;睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣，
+歡迎攜帶女伴一起參加唷。男伴就不用勉強了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/logo-hover.png&#34; alt=&#34;中秋烤肉的標誌&#34; title=&#34;中秋烤肉的標誌&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年仍然有一個新的網站供各位推薦中秋烤肉的物品：&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;。
+今年仍是架在 Google App Engine 上，後端是用 Python 寫的，前端是 HTML +
+JavaScript + CSS 。不過今年的網站與 &lt;a href=&#34;http://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; 整合較多，而且多了成就系統。
+歡迎各位上去玩玩，蒐集各式各樣的成就。&lt;/p&gt;
+
+&lt;p&gt;以下是一些成就的預覽：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/cloony-toro.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/continuous-visit-count-7.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/like-count-1.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/starlight-warrior.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;目前時間還未定，可以在下面的留言討論，
+或是在 &lt;a href=&#34;http://www.facebook.com/apps/application.php?id=271148119565356&#34;&gt;Facebook 的粉絲頁&lt;/a&gt; 上留言（好像要先讚那頁才能留言。）
+至於材料的準備，應該是在當天晚上一起來我家附近的全聯或是頂好超市採購吧。&lt;/p&gt;
+
+&lt;p&gt;特別一提的是，&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;的標誌是由我&lt;a href=&#34;http://grace.hng.tw/&#34;&gt;老婆&lt;/a&gt;設計的。&lt;/p&gt;
+
+&lt;p&gt;另外附上往年中秋烤肉的網站。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/y2006&#34;&gt;Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/midautumn2007&#34;&gt;第二屆Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apps.facebook.com/adieu-fb/&#34;&gt;第一屆Post-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing Calennar</title>
+      <link>https://ron.hng.tw/2011/05/08/introducing-calennar/</link>
+      <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/05/08/introducing-calennar/</guid>
+      <description>&lt;p&gt;Introducing Calennar, seminar schedules in iCalendar format.
+Currently, this only support seminars from &lt;a href=&#34;http://www.comp.nus.edu.sg/&#34;&gt;NUS School of Computing&lt;/a&gt;.
+You can subscribe Calennar into your favorite calendar client with the
+following URL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;NUS SoC offers many seminars. However, since I am not from SoC, I do
+not receive automatic email notifications for these seminars and often
+missed interesting ones. They do offer &lt;a href=&#34;http://www.comp.nus.edu.sg/is/seminars.html&#34;&gt;web&lt;/a&gt; for the seminar
+schedules, but there are no corresponding RSS or Twitter account to
+subscribe to. So I built Calennar &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to automatically collect the
+seminar schedules and publish them in the iCalendar format. Users can
+subscribe the URL above in their calendar client and have the seminars
+show up in the calendar. The following are screenshots of how seminar
+entries look like in Google Calendar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/calennar-summary.png&#34; alt=&#34;Screenshot&#34; title=&#34;Summary&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/calennar-detail.png&#34; alt=&#34;Screenshot&#34; title=&#34;Detail&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, the URL above only returns seminars up to one year ago. So
+if you access the URL on 8th May 2011, only seminars after 8th May
+2010 will be returned. However, you can retrieve all of the
+seminars &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-all.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also retrieve seminars of certain year by appending the year
+after &amp;ldquo;nuscs&amp;rdquo;, such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-2010.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have fun attending the seminars, I know I did. As usual, the source
+code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:1&#34;&gt;Calendar + Seminar = Calennar. I apologize once again for the poor naming. :p
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:2&#34;&gt;Oldest entry is from July 2001.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Embed Tweet with a Single Line of Code</title>
+      <link>https://ron.hng.tw/2011/04/04/embed-tweet-with-a-single-line-of-code/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/04/04/embed-tweet-with-a-single-line-of-code/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/28: this widget is no longer usable. Please refer
+  to &lt;a href=&#34;https://dev.twitter.com/web/embedded-tweets&#34;&gt;Embed a Single Tweet&lt;/a&gt; for similar feature.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In my previous &lt;a href=&#34;https://ron.hng.tw/2011/04/02/after-april-fools-day/&#34;&gt;post&lt;/a&gt;, I
+needed to show a tweet. Though I could have embedded a picture of the
+tweet, I would really prefer a functional one, where the links,
+mentions, and hashtags are all linkified. But I wasn&amp;rsquo;t able to find
+any useful ones beside &lt;a href=&#34;http://media.twitter.com/blackbird-pie/&#34;&gt;Blackbird Pie&lt;/a&gt;. Blackbird Pie was OK, but it
+requires users to manually generate the tweet and embed the generated
+HTML. And in my case, I also have to slightly change the HTML to fit
+my style.&lt;/p&gt;
+
+&lt;p&gt;So I created a web widget to easily embed tweets. There&amp;rsquo;s currently no
+name for this widget. I will just refer it as Embed Tweet. It is based
+on &lt;a href=&#34;https://github.com/jmillerinc/blackbirdpy&#34;&gt;Blackbirdpy&lt;/a&gt;, but written in JavaScript and modified to fit closer
+to the current visual style of Twitter.&lt;/p&gt;
+
+&lt;p&gt;To embed a tweet, you have to first find out the tweet ID of the tweet
+you wish to embed. For example, the ID of the first tweet ever
+&lt;a href=&#34;http://twitter.com/jack/status/20&#34;&gt;http://twitter.com/jack/status/20&lt;/a&gt; is 20. Then, simply add the
+following script to the location where you want the tweet to show
+up. Make sure to replace 20 in the example to the actual tweet ID. The
+tweet will automatically embed below the script.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;http://inmate.ronhuang.org/tweet/20&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The script above will render the following tweet.&lt;/p&gt;
+
+&lt;p&gt;(You might not see the tweet if you are viewing from the feed.)&lt;/p&gt;
+
+&lt;p&gt;Hope you find this widget useful. The source code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taiwan Friendly Wikipedia</title>
+      <link>https://ron.hng.tw/2011/03/28/taiwan-friendly-wikipedia/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/03/28/taiwan-friendly-wikipedia/</guid>
+      <description>&lt;p&gt;Although Wikipedia provides menu to switch from different Chinese
+variants, Wikipedia doesn&amp;rsquo;t seem to remember to the users&amp;rsquo;
+selection. I am tired of manually going through the menu and selecting
+Traditional Chinese (Taiwan) whenever I browse a new Wikipedia
+article. So I created &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Taiwan Friendly Wikipedia&lt;/a&gt;, a Google Chrome
+extension to automatically redirect to the Traditional Chinese
+(Taiwan) variant when reading Chinese articles.&lt;/p&gt;
+
+&lt;p&gt;Users can switch off the automatic redirection in the options. If
+disabled, users have to manually click the icon on the Ombibox to
+redirect to Traditional Chinese (Taiwan) variant article. The default
+is enabled (will automatically redirect.)&lt;/p&gt;
+
+&lt;p&gt;Screenshots:
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-1.png&#34; alt=&#34;Screenshot&#34; title=&#34;Click on the icon to redirect&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-2.png&#34; alt=&#34;Screenshot&#34; title=&#34;Wikipedia in Traditional Chinese (Taiwan)&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-3.png&#34; alt=&#34;Screenshot&#34; title=&#34;Options page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can install Taiwan Friendly Wikipedia at &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Chrome Web Store&lt;/a&gt;. The
+source code is available at &lt;a href=&#34;https://github.com/ronhuang/taiwan-friendly-wikipedia&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter user names with less than two characters</title>
+      <link>https://ron.hng.tw/2010/07/22/twitter-user-names-with-less-than-two-characters/</link>
+      <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2010/07/22/twitter-user-names-with-less-than-two-characters/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Updated in 2012/12/02: moved table to Google Docs.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Today I was curious if all the Twitter user names with less than two
+characters are already created. So I wrote a tiny script to check.&lt;/p&gt;
+
+&lt;p&gt;The result is: YES! All of them are already created. In fact, the last
+one, &lt;a href=&#34;https://twitter.com/lh&#34; title=&#34;luke hutchison&#34;&gt;lh&lt;/a&gt;, was just created today! What a coincidence. However, quite
+a few user names are suspended, and user name &lt;a href=&#34;https://twitter.com/me&#34;&gt;me&lt;/a&gt; also seems to be
+reserved. Maybe there is still chance to create one in the future?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Earliest creation date is Mar 21, 2006 09:02 PM by &lt;a href=&#34;https://twitter.com/ev&#34; title=&#34;Evan Williams&#34;&gt;ev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Latest creation date is Jul 22, 2010 12:53 AM by &lt;a href=&#34;https://twitter.com/lh&#34; title=&#34;luke hutchison&#34;&gt;lh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Number of user names created in year 2010: 72&lt;/li&gt;
+&lt;li&gt;Number of user names created in year 2009: 161&lt;/li&gt;
+&lt;li&gt;Number of user names created in year 2008: 311&lt;/li&gt;
+&lt;li&gt;Number of user names created in year 2007: 687&lt;/li&gt;
+&lt;li&gt;Number of user names created in year 2006: 105&lt;/li&gt;
+&lt;li&gt;Number of user names suspended: 69&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#39;100%&#39; height=&#39;300&#39; frameborder=&#39;0&#39;
+src=&#39;https://docs.google.com/spreadsheet/pub?key=0ApTWk-WsugKzdHBDakswWUNHM0ZYbmpqZFg4UHFGTWc&amp;output=html&amp;widget=true&#39;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

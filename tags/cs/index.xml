@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cs on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/cs/</link>
+    <description>Recent content in Cs on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 08 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducing Calennar</title>
+      <link>https://ron.hng.tw/2011/05/08/introducing-calennar/</link>
+      <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/05/08/introducing-calennar/</guid>
+      <description>&lt;p&gt;Introducing Calennar, seminar schedules in iCalendar format.
+Currently, this only support seminars from &lt;a href=&#34;http://www.comp.nus.edu.sg/&#34;&gt;NUS School of Computing&lt;/a&gt;.
+You can subscribe Calennar into your favorite calendar client with the
+following URL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;NUS SoC offers many seminars. However, since I am not from SoC, I do
+not receive automatic email notifications for these seminars and often
+missed interesting ones. They do offer &lt;a href=&#34;http://www.comp.nus.edu.sg/is/seminars.html&#34;&gt;web&lt;/a&gt; for the seminar
+schedules, but there are no corresponding RSS or Twitter account to
+subscribe to. So I built Calennar &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to automatically collect the
+seminar schedules and publish them in the iCalendar format. Users can
+subscribe the URL above in their calendar client and have the seminars
+show up in the calendar. The following are screenshots of how seminar
+entries look like in Google Calendar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/calennar-summary.png&#34; alt=&#34;Screenshot&#34; title=&#34;Summary&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/calennar-detail.png&#34; alt=&#34;Screenshot&#34; title=&#34;Detail&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, the URL above only returns seminars up to one year ago. So
+if you access the URL on 8th May 2011, only seminars after 8th May
+2010 will be returned. However, you can retrieve all of the
+seminars &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-all.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also retrieve seminars of certain year by appending the year
+after &amp;ldquo;nuscs&amp;rdquo;, such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-2010.ics
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have fun attending the seminars, I know I did. As usual, the source
+code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:1&#34;&gt;Calendar + Seminar = Calennar. I apologize once again for the poor naming. :p
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:2&#34;&gt;Oldest entry is from July 2001.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

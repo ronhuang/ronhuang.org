@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011 on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/2011/</link>
+    <description>Recent content in 2011 on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 31 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/2011/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>久違的中秋烤肉</title>
+      <link>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</link>
+      <pubDate>Wed, 31 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</guid>
+      <description>&lt;p&gt;睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣，
+歡迎攜帶女伴一起參加唷。男伴就不用勉強了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/logo-hover.png&#34; alt=&#34;中秋烤肉的標誌&#34; title=&#34;中秋烤肉的標誌&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年仍然有一個新的網站供各位推薦中秋烤肉的物品：&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;。
+今年仍是架在 Google App Engine 上，後端是用 Python 寫的，前端是 HTML +
+JavaScript + CSS 。不過今年的網站與 &lt;a href=&#34;http://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; 整合較多，而且多了成就系統。
+歡迎各位上去玩玩，蒐集各式各樣的成就。&lt;/p&gt;
+
+&lt;p&gt;以下是一些成就的預覽：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/cloony-toro.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/continuous-visit-count-7.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/like-count-1.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/starlight-warrior.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;目前時間還未定，可以在下面的留言討論，
+或是在 &lt;a href=&#34;http://www.facebook.com/apps/application.php?id=271148119565356&#34;&gt;Facebook 的粉絲頁&lt;/a&gt; 上留言（好像要先讚那頁才能留言。）
+至於材料的準備，應該是在當天晚上一起來我家附近的全聯或是頂好超市採購吧。&lt;/p&gt;
+
+&lt;p&gt;特別一提的是，&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;的標誌是由我&lt;a href=&#34;http://grace.hng.tw/&#34;&gt;老婆&lt;/a&gt;設計的。&lt;/p&gt;
+
+&lt;p&gt;另外附上往年中秋烤肉的網站。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/y2006&#34;&gt;Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/midautumn2007&#34;&gt;第二屆Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apps.facebook.com/adieu-fb/&#34;&gt;第一屆Post-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>After April Fools&#39; Day</title>
+      <link>https://ron.hng.tw/2011/04/02/after-april-fools-day/</link>
+      <pubDate>Sat, 02 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/04/02/after-april-fools-day/</guid>
+      <description>&lt;p&gt;Yesterday, I announced my latest research topic on Twitter and
+Facebook: Software Patterns of User Experience for World of Warcraft
+(SPUXWoW).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Introducing Software Patterns of User Experience for World of Warcraft (SPUXWoW). http://j.hng.tw/lpgnb&lt;/p&gt;&amp;mdash; Ron Huang (@ronhuang) &lt;a href=&#34;https://twitter.com/ronhuang/status/53632515516284928&#34;&gt;April 1, 2011&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;However, instead of pointing to the actual research page, the link
+pointed to &lt;a href=&#34;http://youtu.be/oHg5SJYRHA0&#34;&gt;RickRoll&amp;rsquo;D&lt;/a&gt; on YouTube. As of today, there are a total of
+87 people who got rickroll&amp;rsquo;d by me. Thanks everyone for
+participating. Couldn&amp;rsquo;t have done it without you guys. :p&lt;/p&gt;
+
+&lt;p&gt;(Seriously, I am sorry for my immature prank. I will do my best to
+come up with something more sophisticated next year.)&lt;/p&gt;
+
+&lt;p&gt;Anyway, the following are some of the better pranks I enjoyed this year.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.omgubuntu.co.uk/2011/04/houston-we-have-a-problem-the-x-server-has-crashed/&#34;&gt;Houston, we have a problem – the X server has crashed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goo.gl/maps/kH7J&#34;&gt;Narwhal outside Canonical&amp;rsquo;s London office&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/CNm8ZCJ7Fx8&#34;&gt;Top 5 Viral Pictures of 1911&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/RjbkAECbDBE&#34;&gt;Everybody Chromercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/Bu927_ul_X0&#34;&gt;Introducing Gmail Motion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/intl/en/jobs/uslocations/mountain-view/autocompleter/index.html&#34;&gt;Google Hiring Autocompleters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/news/2011/04/http-1.2-released&#34;&gt;HTTP 1.2 Released with Improved Support for Hierarchies and Text-Menu Interfaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.virgin.com/travel/news/branson-buys-pluto-reinstates-as-planet/&#34;&gt;Richard Branson buys Pluto, reinstates it as a planet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.archlinux.org/news/the-canterbury-project/&#34;&gt;The Canterbury Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.geforce.com/#/News/articles/voodoo-revived&#34;&gt;Introducing the 3dfx Voodoo 590&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/uiZNtTLAwz8&#34;&gt;StarCraft: Motion Overdrive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/game/dungeon/tomb-of-immortal-darkness&#34;&gt;Tomb of Immortal Darkness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://googleresearch.blogspot.com/2011/04/ig-pay-atin-lay-oice-vay-earch-say.html&#34;&gt;Ig-pay Atin-lay Oice-vay Earch-say&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/forum/topic/2325684862&#34;&gt;World of Warcraft patch 4.1.11 preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extension on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/extension/</link>
+    <description>Recent content in Extension on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 28 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/extension/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taiwan Friendly Wikipedia</title>
+      <link>https://ron.hng.tw/2011/03/28/taiwan-friendly-wikipedia/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/03/28/taiwan-friendly-wikipedia/</guid>
+      <description>&lt;p&gt;Although Wikipedia provides menu to switch from different Chinese
+variants, Wikipedia doesn&amp;rsquo;t seem to remember to the users&amp;rsquo;
+selection. I am tired of manually going through the menu and selecting
+Traditional Chinese (Taiwan) whenever I browse a new Wikipedia
+article. So I created &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Taiwan Friendly Wikipedia&lt;/a&gt;, a Google Chrome
+extension to automatically redirect to the Traditional Chinese
+(Taiwan) variant when reading Chinese articles.&lt;/p&gt;
+
+&lt;p&gt;Users can switch off the automatic redirection in the options. If
+disabled, users have to manually click the icon on the Ombibox to
+redirect to Traditional Chinese (Taiwan) variant article. The default
+is enabled (will automatically redirect.)&lt;/p&gt;
+
+&lt;p&gt;Screenshots:
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-1.png&#34; alt=&#34;Screenshot&#34; title=&#34;Click on the icon to redirect&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-2.png&#34; alt=&#34;Screenshot&#34; title=&#34;Wikipedia in Traditional Chinese (Taiwan)&#34; /&gt;
+&lt;img src=&#34;https://ron.hng.tw/img/tfw-3.png&#34; alt=&#34;Screenshot&#34; title=&#34;Options page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can install Taiwan Friendly Wikipedia at &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Chrome Web Store&lt;/a&gt;. The
+source code is available at &lt;a href=&#34;https://github.com/ronhuang/taiwan-friendly-wikipedia&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

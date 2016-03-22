@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Phone on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/windows-phone/</link>
+    <description>Recent content in Windows Phone on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 26 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/windows-phone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First post from Windows Phone</title>
+      <link>https://ron.hng.tw/2013/01/26/first-post-from-windows-phone/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2013/01/26/first-post-from-windows-phone/</guid>
+      <description>&lt;p&gt;Yet again, I switched my blog engine. This time, I switched from
+Jekyll to WordPress.&lt;/p&gt;
+
+&lt;p&gt;I really like how Jekyll works. It&amp;rsquo;s very straightforward and allow me
+to blog within my editor of choice, Emacs. But it also forces me to
+blog in front of my laptop, instead of other mobile devices.&lt;/p&gt;
+
+&lt;p&gt;After much consideration, I decided to switch to WordPress, a more
+ubiquitous blog engine which has support on most major platforms. Even
+underdog like Windows Phone has official app from Automattic. I am
+using it right now to write this post.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;rsquo;t guarantee I&amp;rsquo;ll write more posts. But at least I have one less
+excuse not to update my blog now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/SavedPicture-2013126141035.jpg&#34; alt=&#34;wp7&#34; title=&#34;wp7&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

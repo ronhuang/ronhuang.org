@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/website/</link>
+    <description>Recent content in Website on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 22 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website Design</title>
+      <link>https://ron.hng.tw/2011/04/22/new-website-design/</link>
+      <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/04/22/new-website-design/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/28: this post is no longer applicable.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently, I redesigned my website. It is based on &lt;a href=&#34;http://html5boilerplate.com/&#34;&gt;HTML5 Boilerplate&lt;/a&gt;
+and &lt;a href=&#34;http://lessframework.com/&#34;&gt;Less Framework&lt;/a&gt;. Changes include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Followed the &lt;a href=&#34;http://www.alistapart.com/articles/responsive-web-design/&#34;&gt;Responsive Web Design&lt;/a&gt;. The website is readable both
+on desktop and mobile browsers, even
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_Explorer_Mobile#Version_7&#34;&gt;Internet Explorer Mobile 7&lt;/a&gt;
+(sort of.)&lt;/li&gt;
+&lt;li&gt;Integrated &lt;a href=&#34;http://www.google.com/cse/&#34;&gt;Google Custom Search&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Supported &lt;a href=&#34;http://www.opensearch.org/&#34;&gt;OpenSearch&lt;/a&gt;. Viewers can search my website directly from
+Google Chrome&amp;rsquo;s Omnibar, similar to
+&lt;a href=&#34;http://friendfeed.com/bgolub/5e56afb1/i-like-how-google-chrome-deals-with-opensearch&#34;&gt;http://friendfeed.com/bgolub/5e56afb1/i-like-how-google-chrome-deals-with-opensearch&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Changed the font for headers to &lt;a href=&#34;http://font.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Changed the font for contents to &lt;del&gt;&lt;a href=&#34;http://www.google.com/webfonts/family?family=Vollkorn&#34;&gt;Vollkorn&lt;/a&gt;&lt;/del&gt; &lt;a href=&#34;http://www.google.com/webfonts/family?family=Tinos&#34;&gt;Tinos&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Updated favicon. &lt;a href=&#34;http://grace.hng.tw/&#34;&gt;Grace&lt;/a&gt; made the icon for me based on one of our
+marriage photos.&lt;/li&gt;
+&lt;li&gt;Used &lt;a href=&#34;http://www.datatables.net/&#34;&gt;DataTables&lt;/a&gt; instead of &lt;a href=&#34;http://tablesorter.com/&#34;&gt;tablesorter&lt;/a&gt; to display table. Large
+tables, such as the one in
+&lt;a href=&#34;https://ron.hng.tw/2010/07/22/twitter-user-names-with-less-than-two-characters/&#34;&gt;Twitter user names with less than two characters&lt;/a&gt;, are paginated.&lt;/li&gt;
+&lt;li&gt;Integrated &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?answer=136085&#34;&gt;Google&amp;rsquo;s 404 widget&lt;/a&gt; into the &lt;a href=&#34;https://ron.hng.tw/notfound/&#34;&gt;404 page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contents of the website are licensed under a
+&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Various source code refactoring.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please let me know if you have any comments or suggestions. Thank you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

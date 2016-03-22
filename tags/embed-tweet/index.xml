@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embed Tweet on Ron Huang</title>
+    <link>https://ron.hng.tw/tags/embed-tweet/</link>
+    <description>Recent content in Embed Tweet on Ron Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 04 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ron.hng.tw/tags/embed-tweet/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Embed Tweet with a Single Line of Code</title>
+      <link>https://ron.hng.tw/2011/04/04/embed-tweet-with-a-single-line-of-code/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ron.hng.tw/2011/04/04/embed-tweet-with-a-single-line-of-code/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/28: this widget is no longer usable. Please refer
+  to &lt;a href=&#34;https://dev.twitter.com/web/embedded-tweets&#34;&gt;Embed a Single Tweet&lt;/a&gt; for similar feature.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In my previous &lt;a href=&#34;https://ron.hng.tw/2011/04/02/after-april-fools-day/&#34;&gt;post&lt;/a&gt;, I
+needed to show a tweet. Though I could have embedded a picture of the
+tweet, I would really prefer a functional one, where the links,
+mentions, and hashtags are all linkified. But I wasn&amp;rsquo;t able to find
+any useful ones beside &lt;a href=&#34;http://media.twitter.com/blackbird-pie/&#34;&gt;Blackbird Pie&lt;/a&gt;. Blackbird Pie was OK, but it
+requires users to manually generate the tweet and embed the generated
+HTML. And in my case, I also have to slightly change the HTML to fit
+my style.&lt;/p&gt;
+
+&lt;p&gt;So I created a web widget to easily embed tweets. There&amp;rsquo;s currently no
+name for this widget. I will just refer it as Embed Tweet. It is based
+on &lt;a href=&#34;https://github.com/jmillerinc/blackbirdpy&#34;&gt;Blackbirdpy&lt;/a&gt;, but written in JavaScript and modified to fit closer
+to the current visual style of Twitter.&lt;/p&gt;
+
+&lt;p&gt;To embed a tweet, you have to first find out the tweet ID of the tweet
+you wish to embed. For example, the ID of the first tweet ever
+&lt;a href=&#34;http://twitter.com/jack/status/20&#34;&gt;http://twitter.com/jack/status/20&lt;/a&gt; is 20. Then, simply add the
+following script to the location where you want the tweet to show
+up. Make sure to replace 20 in the example to the actual tweet ID. The
+tweet will automatically embed below the script.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;http://inmate.ronhuang.org/tweet/20&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The script above will render the following tweet.&lt;/p&gt;
+
+&lt;p&gt;(You might not see the tweet if you are viewing from the feed.)&lt;/p&gt;
+
+&lt;p&gt;Hope you find this widget useful. The source code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
