@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wow on Ron Huang</title>
+    <title>wow on Ron Huang</title>
     <link>https://ron.hng.tw/tags/wow/</link>
-    <description>Recent content in Wow on Ron Huang</description>
+    <description>Recent content in wow on Ron Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Sat, 02 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ron.hng.tw/tags/wow/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ron.hng.tw/tags/wow/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>After April Fools&#39; Day</title>
@@ -16,40 +18,9 @@
       <pubDate>Sat, 02 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/02/after-april-fools-day/</guid>
-      <description>&lt;p&gt;Yesterday, I announced my latest research topic on Twitter and
-Facebook: Software Patterns of User Experience for World of Warcraft
-(SPUXWoW).&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Introducing Software Patterns of User Experience for World of Warcraft (SPUXWoW). http://j.hng.tw/lpgnb&lt;/p&gt;&amp;mdash; Ron Huang (@ronhuang) &lt;a href=&#34;https://twitter.com/ronhuang/status/53632515516284928&#34;&gt;April 1, 2011&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;However, instead of pointing to the actual research page, the link
-pointed to &lt;a href=&#34;http://youtu.be/oHg5SJYRHA0&#34;&gt;RickRoll&amp;rsquo;D&lt;/a&gt; on YouTube. As of today, there are a total of
-87 people who got rickroll&amp;rsquo;d by me. Thanks everyone for
-participating. Couldn&amp;rsquo;t have done it without you guys. :p&lt;/p&gt;
-
-&lt;p&gt;(Seriously, I am sorry for my immature prank. I will do my best to
-come up with something more sophisticated next year.)&lt;/p&gt;
-
-&lt;p&gt;Anyway, the following are some of the better pranks I enjoyed this year.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.omgubuntu.co.uk/2011/04/houston-we-have-a-problem-the-x-server-has-crashed/&#34;&gt;Houston, we have a problem – the X server has crashed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://goo.gl/maps/kH7J&#34;&gt;Narwhal outside Canonical&amp;rsquo;s London office&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/CNm8ZCJ7Fx8&#34;&gt;Top 5 Viral Pictures of 1911&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/RjbkAECbDBE&#34;&gt;Everybody Chromercise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/Bu927_ul_X0&#34;&gt;Introducing Gmail Motion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/intl/en/jobs/uslocations/mountain-view/autocompleter/index.html&#34;&gt;Google Hiring Autocompleters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/news/2011/04/http-1.2-released&#34;&gt;HTTP 1.2 Released with Improved Support for Hierarchies and Text-Menu Interfaces&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.virgin.com/travel/news/branson-buys-pluto-reinstates-as-planet/&#34;&gt;Richard Branson buys Pluto, reinstates it as a planet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.archlinux.org/news/the-canterbury-project/&#34;&gt;The Canterbury Project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.geforce.com/#/News/articles/voodoo-revived&#34;&gt;Introducing the 3dfx Voodoo 590&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/uiZNtTLAwz8&#34;&gt;StarCraft: Motion Overdrive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/game/dungeon/tomb-of-immortal-darkness&#34;&gt;Tomb of Immortal Darkness&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://googleresearch.blogspot.com/2011/04/ig-pay-atin-lay-oice-vay-earch-say.html&#34;&gt;Ig-pay Atin-lay Oice-vay Earch-say&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/forum/topic/2325684862&#34;&gt;World of Warcraft patch 4.1.11 preview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Yesterday, I announced my latest research topic on Twitter and Facebook: Software Patterns of User Experience for World of Warcraft (SPUXWoW).
+Introducing Software Patterns of User Experience for World of Warcraft (SPUXWoW). http://j.hng.tw/lpgnb
+&amp;mdash; Ron Huang (@ronhuang) April 1, 2011  However, instead of pointing to the actual research page, the link pointed to RickRoll&amp;rsquo;D on YouTube. As of today, there are a total of 87 people who got rickroll&amp;rsquo;d by me.</description>
     </item>
     
   </channel>

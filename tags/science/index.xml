@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Science on Ron Huang</title>
+    <title>science on Ron Huang</title>
     <link>https://ron.hng.tw/tags/science/</link>
-    <description>Recent content in Science on Ron Huang</description>
+    <description>Recent content in science on Ron Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Sat, 16 Oct 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ron.hng.tw/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ron.hng.tw/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Sorrows of Young Hooman</title>
@@ -16,57 +18,10 @@
       <pubDate>Sat, 16 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2010/10/16/the-sorrows-of-young-hooman/</guid>
-      <description>&lt;p&gt;Just in case I face Hooman&amp;rsquo;s nasty dilemma in the future, I posted the
-solution to &lt;em&gt;The Sorrows of Young Hooman&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;( &lt;em&gt;Don’t Try This At Home, during our explanation to alert and educate
-children, teens and parents about the dangers of trained
-professionals.&lt;/em&gt; )&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M1 uses both C1 and C2 on F1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ----------------
-                         \----
-         ------------- C2     \-
-M1                C2&#39; )         )      F1
-         -------------    C1&#39; /-
-                         /----
-         ----------------     C1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M1 uses only C2 on F2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ------------- C2
-M1                C2&#39; )                F2
-         -------------
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M2 uses only C1 on F1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ------------- C1
-M2                C1&#39; )                F1
-         -------------
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M2 uses both C2 and C1 on F2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ----------------
-                         \----
-         ------------- C1     \-
-M2                C1&#39; )         )      F2
-         -------------    C2&#39; /-
-                         /----
-         ----------------     C2
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Just in case I face Hooman&amp;rsquo;s nasty dilemma in the future, I posted the solution to The Sorrows of Young Hooman.
+( Don’t Try This At Home, during our explanation to alert and educate children, teens and parents about the dangers of trained professionals. )
+ M1 uses both C1 and C2 on F1.
+---------------- \---- ------------- C2 \- M1 C2&#39; ) ) F1 ------------- C1&#39; /- /---- ---------------- C1  M1 uses only C2 on F2.</description>
     </item>
     
   </channel>

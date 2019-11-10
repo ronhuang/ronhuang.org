@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ron Huang</title>
@@ -8,7 +8,9 @@
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Sat, 08 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ron.hng.tw/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ron.hng.tw/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>My Primary Phones</title>
@@ -16,120 +18,10 @@
       <pubDate>Sat, 08 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2014/02/08/my-primary-phones/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/29: remove timeline and add latest phone.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The following is a list of primary phones I have used. Operating
-systems on these devices include Symbian, iOS, Android and Windows
-Phone, and others from feature phones.&lt;/p&gt;
-
-&lt;p&gt;(The actual date for phones before 2007 are not precise.)&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Apple iPhone 6 Plus
-
-&lt;ul&gt;
-&lt;li&gt;Jan 10th, 2015 ~ Present&lt;/li&gt;
-&lt;li&gt;OS: iOS&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Nokia Lumia 920
-
-&lt;ul&gt;
-&lt;li&gt;Jan 5th, 2013 ~ Jan 10th, 2015 (2 years)&lt;/li&gt;
-&lt;li&gt;OS: Windows Phone 8&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;HTC HD7
-
-&lt;ul&gt;
-&lt;li&gt;Nov 5th, 2010 ~ Jan 5th, 2013 (2 years, 2 months)&lt;/li&gt;
-&lt;li&gt;OS: Windows Phone 7&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One of the first Windows Phones&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Google Nexus One
-
-&lt;ul&gt;
-&lt;li&gt;May 6th, 2010 ~ Nov 5th, 2010 (6 months)&lt;/li&gt;
-&lt;li&gt;OS: Android&lt;/li&gt;
-&lt;li&gt;Gift from Google I/O&lt;/li&gt;
-&lt;li&gt;Sold on Dec 1st, 2010&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Apple iPhone 3G
-
-&lt;ul&gt;
-&lt;li&gt;Aug 16th, 2009 ~ May 6th, 2010 (8 months)&lt;/li&gt;
-&lt;li&gt;OS: iOS&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sony Ericsson W950i
-
-&lt;ul&gt;
-&lt;li&gt;Jul 16th, 2009 ~ Aug 16th, 2009 (1 month)&lt;/li&gt;
-&lt;li&gt;I was using the old one from 2007&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;T-Mobile G1
-
-&lt;ul&gt;
-&lt;li&gt;Nov 27th, 2008 ~ Jul 16th, 2009 (7 months)&lt;/li&gt;
-&lt;li&gt;OS: Android&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;First Android phone&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Apple iPhone
-
-&lt;ul&gt;
-&lt;li&gt;Dec 15th, 2007 ~ Nov 27th, 2008 (11 months)&lt;/li&gt;
-&lt;li&gt;OS: iOS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;First iOS phone&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Only half of the screen is usable now&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sony Ericsson P1i
-
-&lt;ul&gt;
-&lt;li&gt;Nov 2nd, 2007 ~ Dec 15th, 2007 (1 month)&lt;/li&gt;
-&lt;li&gt;OS: Symbian&lt;/li&gt;
-&lt;li&gt;Gave to my Father&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sony Ericsson W950i
-
-&lt;ul&gt;
-&lt;li&gt;Feb 6th, 2007 ~ Nov 2nd, 2007 (9 months)&lt;/li&gt;
-&lt;li&gt;OS: Symbian&lt;/li&gt;
-&lt;li&gt;Accidently flashed a large font file and stuck in boot loop&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sony Ericsson W900i
-
-&lt;ul&gt;
-&lt;li&gt;2006&lt;/li&gt;
-&lt;li&gt;First and last Samsung phone I will ever own&lt;/li&gt;
-&lt;li&gt;Sold to a friend&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Samsung SGH-X820
-
-&lt;ul&gt;
-&lt;li&gt;2005&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Sony Ericsson Z600i
-
-&lt;ul&gt;
-&lt;li&gt;2004&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Ericsson T68m
-
-&lt;ul&gt;
-&lt;li&gt;2002&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Last Ericsson phone&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Ericsson A2618
-
-&lt;ul&gt;
-&lt;li&gt;2000&lt;/li&gt;
-&lt;li&gt;Antenna is broken&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Acer G520
-
-&lt;ul&gt;
-&lt;li&gt;1998&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;My first mobile phone&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Updated in 2015/12/29: remove timeline and add latest phone.
+The following is a list of primary phones I have used. Operating systems on these devices include Symbian, iOS, Android and Windows Phone, and others from feature phones.
+(The actual date for phones before 2007 are not precise.)
+ Apple iPhone 6 Plus  Jan 10th, 2015 ~ Present OS: iOS  Nokia Lumia 920  Jan 5th, 2013 ~ Jan 10th, 2015 (2 years) OS: Windows Phone 8  HTC HD7  Nov 5th, 2010 ~ Jan 5th, 2013 (2 years, 2 months) OS: Windows Phone 7 One of the first Windows Phones  Google Nexus One  May 6th, 2010 ~ Nov 5th, 2010 (6 months) OS: Android Gift from Google I/O Sold on Dec 1st, 2010  Apple iPhone 3G  Aug 16th, 2009 ~ May 6th, 2010 (8 months) OS: iOS  Sony Ericsson W950i  Jul 16th, 2009 ~ Aug 16th, 2009 (1 month) I was using the old one from 2007  T-Mobile G1  Nov 27th, 2008 ~ Jul 16th, 2009 (7 months) OS: Android First Android phone  Apple iPhone  Dec 15th, 2007 ~ Nov 27th, 2008 (11 months) OS: iOS First iOS phone Only half of the screen is usable now  Sony Ericsson P1i  Nov 2nd, 2007 ~ Dec 15th, 2007 (1 month) OS: Symbian Gave to my Father  Sony Ericsson W950i  Feb 6th, 2007 ~ Nov 2nd, 2007 (9 months) OS: Symbian Accidently flashed a large font file and stuck in boot loop  Sony Ericsson W900i  2006 First and last Samsung phone I will ever own Sold to a friend  Samsung SGH-X820  2005  Sony Ericsson Z600i  2004  Ericsson T68m  2002 Last Ericsson phone  Ericsson A2618  2000 Antenna is broken  Acer G520  1998 My first mobile phone   </description>
     </item>
     
     <item>
@@ -138,23 +30,9 @@ Phone, and others from feature phones.&lt;/p&gt;
       <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2013/01/26/first-post-from-windows-phone/</guid>
-      <description>&lt;p&gt;Yet again, I switched my blog engine. This time, I switched from
-Jekyll to WordPress.&lt;/p&gt;
-
-&lt;p&gt;I really like how Jekyll works. It&amp;rsquo;s very straightforward and allow me
-to blog within my editor of choice, Emacs. But it also forces me to
-blog in front of my laptop, instead of other mobile devices.&lt;/p&gt;
-
-&lt;p&gt;After much consideration, I decided to switch to WordPress, a more
-ubiquitous blog engine which has support on most major platforms. Even
-underdog like Windows Phone has official app from Automattic. I am
-using it right now to write this post.&lt;/p&gt;
-
-&lt;p&gt;I can&amp;rsquo;t guarantee I&amp;rsquo;ll write more posts. But at least I have one less
-excuse not to update my blog now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/SavedPicture-2013126141035.jpg&#34; alt=&#34;wp7&#34; title=&#34;wp7&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Yet again, I switched my blog engine. This time, I switched from Jekyll to WordPress.
+I really like how Jekyll works. It&amp;rsquo;s very straightforward and allow me to blog within my editor of choice, Emacs. But it also forces me to blog in front of my laptop, instead of other mobile devices.
+After much consideration, I decided to switch to WordPress, a more ubiquitous blog engine which has support on most major platforms.</description>
     </item>
     
     <item>
@@ -163,30 +41,7 @@ excuse not to update my blog now.&lt;/p&gt;
       <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/about/</guid>
-      <description>&lt;p&gt;I am Ron Huang, also known as Yih-Lun Huang or 黃翊倫. I am happily
-married to &lt;a href=&#34;http://grace.hng.tw/&#34; title=&#34;Grace Tsao&#34;&gt;Grace Tsao&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Currently, I am a software engineer at
-&lt;a href=&#34;https://www.hpe.com/&#34; title=&#34;Hewlett Packard Enterprise&#34;&gt;Hewlett Packard Enterprise&lt;/a&gt;. Before that, I was a graduate student
-pursuing PhD degree at Department of Electrical &amp;amp; Computer
-Engineering, National University of Singapore. My supervisor was
-&lt;a href=&#34;http://seriousgames.sg/People.php&#34; title=&#34;Dr. Tim Marsh&#34;&gt;Dr. Tim Marsh&lt;/a&gt;. However, it was suspended due to
-&lt;a href=&#34;https://instagram.com/p/HB8u2MgqcC/&#34;&gt;one&lt;/a&gt; of the most wonderful
-events in my life.&lt;/p&gt;
-
-&lt;p&gt;My research interests include human-computer interaction, end-user
-programming, software engineering, and serious games. I was working on
-patterns of user experience for software developers, a collection of
-the best practices within the user experience design domain. But
-instead of targeting their normal audiences, the interaction
-designers, these patterns are transcribed in language familiar to
-software developers. For more information, please refer to my &lt;a href=&#34;https://ron.hng.tw/cv/&#34; title=&#34;CV&#34;&gt;CV&lt;/a&gt; or
-&lt;a href=&#34;https://ron.hng.tw/pub/resume.pdf&#34; title=&#34;Resume&#34;&gt;resume&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I enjoy playing video game, reading fiction, and writing hobbyist
-software. Most of my software projects are host on &lt;a href=&#34;https://github.com/ronhuang&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;. You can
-also find me at &lt;a href=&#34;https://twitter.com/ronhuang&#34; title=&#34;Twitter&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I am Ron Huang, also known as Yih-Lun Huang or 黃翊倫. I am happily married to Grace Tsao. Currently, I am a software engineer at Hewlett Packard Enterprise. Before that, I was a graduate student pursuing PhD degree at Department of Electrical &amp;amp; Computer Engineering, National University of Singapore. My supervisor was Dr. Tim Marsh. However, it was suspended due to one of the most wonderful events</description>
     </item>
     
     <item>
@@ -195,37 +50,7 @@ also find me at &lt;a href=&#34;https://twitter.com/ronhuang&#34; title=&#34;Twi
       <pubDate>Wed, 31 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/08/31/midautumn-bbq-2011/</guid>
-      <description>&lt;p&gt;睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣，
-歡迎攜帶女伴一起參加唷。男伴就不用勉強了。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/logo-hover.png&#34; alt=&#34;中秋烤肉的標誌&#34; title=&#34;中秋烤肉的標誌&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;今年仍然有一個新的網站供各位推薦中秋烤肉的物品：&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;。
-今年仍是架在 Google App Engine 上，後端是用 Python 寫的，前端是 HTML +
-JavaScript + CSS 。不過今年的網站與 &lt;a href=&#34;http://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; 整合較多，而且多了成就系統。
-歡迎各位上去玩玩，蒐集各式各樣的成就。&lt;/p&gt;
-
-&lt;p&gt;以下是一些成就的預覽：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/cloony-toro.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/continuous-visit-count-7.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/like-count-1.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/starlight-warrior.png&#34; alt=&#34;成就&#34; title=&#34;成就&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;目前時間還未定，可以在下面的留言討論，
-或是在 &lt;a href=&#34;http://www.facebook.com/apps/application.php?id=271148119565356&#34;&gt;Facebook 的粉絲頁&lt;/a&gt; 上留言（好像要先讚那頁才能留言。）
-至於材料的準備，應該是在當天晚上一起來我家附近的全聯或是頂好超市採購吧。&lt;/p&gt;
-
-&lt;p&gt;特別一提的是，&lt;a href=&#34;http://ronhuang.org/eats/y2011&#34;&gt;中秋烤肉&lt;/a&gt;的標誌是由我&lt;a href=&#34;http://grace.hng.tw/&#34;&gt;老婆&lt;/a&gt;設計的。&lt;/p&gt;
-
-&lt;p&gt;另外附上往年中秋烤肉的網站。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/y2006&#34;&gt;Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ronhuang.org/eats/midautumn2007&#34;&gt;第二屆Pre-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://apps.facebook.com/adieu-fb/&#34;&gt;第一屆Post-中秋烤肉晚會&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣， 歡迎攜帶女伴一起參加唷。男伴就不用勉強了。 今年仍然有一個新的網站供各</description>
     </item>
     
     <item>
@@ -234,55 +59,8 @@ JavaScript + CSS 。不過今年的網站與 &lt;a href=&#34;http://www.facebook
       <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/05/08/introducing-calennar/</guid>
-      <description>&lt;p&gt;Introducing Calennar, seminar schedules in iCalendar format.
-Currently, this only support seminars from &lt;a href=&#34;http://www.comp.nus.edu.sg/&#34;&gt;NUS School of Computing&lt;/a&gt;.
-You can subscribe Calennar into your favorite calendar client with the
-following URL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs.ics
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;NUS SoC offers many seminars. However, since I am not from SoC, I do
-not receive automatic email notifications for these seminars and often
-missed interesting ones. They do offer &lt;a href=&#34;http://www.comp.nus.edu.sg/is/seminars.html&#34;&gt;web&lt;/a&gt; for the seminar
-schedules, but there are no corresponding RSS or Twitter account to
-subscribe to. So I built Calennar &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to automatically collect the
-seminar schedules and publish them in the iCalendar format. Users can
-subscribe the URL above in their calendar client and have the seminars
-show up in the calendar. The following are screenshots of how seminar
-entries look like in Google Calendar.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ron.hng.tw/img/calennar-summary.png&#34; alt=&#34;Screenshot&#34; title=&#34;Summary&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/calennar-detail.png&#34; alt=&#34;Screenshot&#34; title=&#34;Detail&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By default, the URL above only returns seminars up to one year ago. So
-if you access the URL on 8th May 2011, only seminars after 8th May
-2010 will be returned. However, you can retrieve all of the
-seminars &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:227d888ac105e24679383836bcce2270:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-all.ics
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can also retrieve seminars of certain year by appending the year
-after &amp;ldquo;nuscs&amp;rdquo;, such as:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;http://inmate.ronhuang.org/calennar/nuscs-2010.ics
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Have fun attending the seminars, I know I did. As usual, the source
-code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:1&#34;&gt;Calendar + Seminar = Calennar. I apologize once again for the poor naming. :p
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:227d888ac105e24679383836bcce2270:2&#34;&gt;Oldest entry is from July 2001.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:227d888ac105e24679383836bcce2270:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <description>Introducing Calennar, seminar schedules in iCalendar format. Currently, this only support seminars from NUS School of Computing. You can subscribe Calennar into your favorite calendar client with the following URL:
+http://inmate.ronhuang.org/calennar/nuscs.ics  NUS SoC offers many seminars. However, since I am not from SoC, I do not receive automatic email notifications for these seminars and often missed interesting ones. They do offer web for the seminar schedules, but there are no corresponding RSS or Twitter account to subscribe to.</description>
     </item>
     
     <item>
@@ -291,32 +69,8 @@ code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;
       <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/23/new-cv-page/</guid>
-      <description>&lt;p&gt;I have updated my &lt;a href=&#34;https://ron.hng.tw/cv/&#34;&gt;CV&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;p&gt;Recently &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I saw an &lt;a href=&#34;http://css-tricks.com/examples/OnePageResume/&#34;&gt;awesome resume&lt;/a&gt; from &lt;a href=&#34;http://css-tricks.com/&#34;&gt;CSS-Tricks&lt;/a&gt;. Based on
-that resume, I created a new CV page of mine. My previous CV page only
-contained a link to the PDF version of my CV. I have taken most of the
-contents from the PDF version and populated into the HTML
-one. However, the link to the PDF is still preserved. So if you prefer
-reading PDF, please click &lt;a href=&#34;https://ron.hng.tw/cv/vitae.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another reason I have created this post is that I realized the keyword
-&lt;em&gt;resume&lt;/em&gt; is not available throughout my website. Google could not find
-any page with &lt;em&gt;&lt;a href=&#34;http://ronhuang.org/search/?cx=partner-pub-2284163765913634%3A9203988230&amp;amp;cof=FORID%3A10&amp;amp;ie=UTF-8&amp;amp;q=resume&#34;&gt;resume&lt;/a&gt;&lt;/em&gt;. Though resume is different from CV, I hope
-this post will better inform others about myself &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;C&amp;#39;thulhu has a resume, and a well designed one too.&lt;br&gt;http://css-tricks.com/examples/OnePageResume/&lt;/p&gt;&amp;mdash; Ron Huang (@ronhuang) &lt;a href=&#34;https://twitter.com/ronhuang/status/55571056257286145&#34;&gt;April 6, 2011&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;Clearly, I have very limited knowledge on SEO.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <description>I have updated my CV page.
+Recently 1, I saw an awesome resume from CSS-Tricks. Based on that resume, I created a new CV page of mine. My previous CV page only contained a link to the PDF version of my CV. I have taken most of the contents from the PDF version and populated into the HTML one. However, the link to the PDF is still preserved. So if you prefer reading PDF, please click here.</description>
     </item>
     
     <item>
@@ -325,35 +79,9 @@ this post will better inform others about myself &lt;sup class=&#34;footnote-ref
       <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/22/new-website-design/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/28: this post is no longer applicable.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Recently, I redesigned my website. It is based on &lt;a href=&#34;http://html5boilerplate.com/&#34;&gt;HTML5 Boilerplate&lt;/a&gt;
-and &lt;a href=&#34;http://lessframework.com/&#34;&gt;Less Framework&lt;/a&gt;. Changes include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Followed the &lt;a href=&#34;http://www.alistapart.com/articles/responsive-web-design/&#34;&gt;Responsive Web Design&lt;/a&gt;. The website is readable both
-on desktop and mobile browsers, even
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_Explorer_Mobile#Version_7&#34;&gt;Internet Explorer Mobile 7&lt;/a&gt;
-(sort of.)&lt;/li&gt;
-&lt;li&gt;Integrated &lt;a href=&#34;http://www.google.com/cse/&#34;&gt;Google Custom Search&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Supported &lt;a href=&#34;http://www.opensearch.org/&#34;&gt;OpenSearch&lt;/a&gt;. Viewers can search my website directly from
-Google Chrome&amp;rsquo;s Omnibar, similar to
-&lt;a href=&#34;http://friendfeed.com/bgolub/5e56afb1/i-like-how-google-chrome-deals-with-opensearch&#34;&gt;http://friendfeed.com/bgolub/5e56afb1/i-like-how-google-chrome-deals-with-opensearch&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Changed the font for headers to &lt;a href=&#34;http://font.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Changed the font for contents to &lt;del&gt;&lt;a href=&#34;http://www.google.com/webfonts/family?family=Vollkorn&#34;&gt;Vollkorn&lt;/a&gt;&lt;/del&gt; &lt;a href=&#34;http://www.google.com/webfonts/family?family=Tinos&#34;&gt;Tinos&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Updated favicon. &lt;a href=&#34;http://grace.hng.tw/&#34;&gt;Grace&lt;/a&gt; made the icon for me based on one of our
-marriage photos.&lt;/li&gt;
-&lt;li&gt;Used &lt;a href=&#34;http://www.datatables.net/&#34;&gt;DataTables&lt;/a&gt; instead of &lt;a href=&#34;http://tablesorter.com/&#34;&gt;tablesorter&lt;/a&gt; to display table. Large
-tables, such as the one in
-&lt;a href=&#34;https://ron.hng.tw/2010/07/22/twitter-user-names-with-less-than-two-characters/&#34;&gt;Twitter user names with less than two characters&lt;/a&gt;, are paginated.&lt;/li&gt;
-&lt;li&gt;Integrated &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?answer=136085&#34;&gt;Google&amp;rsquo;s 404 widget&lt;/a&gt; into the &lt;a href=&#34;https://ron.hng.tw/notfound/&#34;&gt;404 page&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Contents of the website are licensed under a
-&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Various source code refactoring.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Please let me know if you have any comments or suggestions. Thank you.&lt;/p&gt;
-</description>
+      <description>Updated in 2015/12/28: this post is no longer applicable.
+Recently, I redesigned my website. It is based on HTML5 Boilerplate and Less Framework. Changes include:
+ Followed the Responsive Web Design. The website is readable both on desktop and mobile browsers, even Internet Explorer Mobile 7 (sort of.) Integrated Google Custom Search. Supported OpenSearch. Viewers can search my website directly from Google Chrome&amp;rsquo;s Omnibar, similar to http://friendfeed.com/bgolub/5e56afb1/i-like-how-google-chrome-deals-with-opensearch. Changed the font for headers to Ubuntu.</description>
     </item>
     
     <item>
@@ -362,39 +90,8 @@ tables, such as the one in
       <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/04/embed-tweet-with-a-single-line-of-code/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2015/12/28: this widget is no longer usable. Please refer
-  to &lt;a href=&#34;https://dev.twitter.com/web/embedded-tweets&#34;&gt;Embed a Single Tweet&lt;/a&gt; for similar feature.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In my previous &lt;a href=&#34;https://ron.hng.tw/2011/04/02/after-april-fools-day/&#34;&gt;post&lt;/a&gt;, I
-needed to show a tweet. Though I could have embedded a picture of the
-tweet, I would really prefer a functional one, where the links,
-mentions, and hashtags are all linkified. But I wasn&amp;rsquo;t able to find
-any useful ones beside &lt;a href=&#34;http://media.twitter.com/blackbird-pie/&#34;&gt;Blackbird Pie&lt;/a&gt;. Blackbird Pie was OK, but it
-requires users to manually generate the tweet and embed the generated
-HTML. And in my case, I also have to slightly change the HTML to fit
-my style.&lt;/p&gt;
-
-&lt;p&gt;So I created a web widget to easily embed tweets. There&amp;rsquo;s currently no
-name for this widget. I will just refer it as Embed Tweet. It is based
-on &lt;a href=&#34;https://github.com/jmillerinc/blackbirdpy&#34;&gt;Blackbirdpy&lt;/a&gt;, but written in JavaScript and modified to fit closer
-to the current visual style of Twitter.&lt;/p&gt;
-
-&lt;p&gt;To embed a tweet, you have to first find out the tweet ID of the tweet
-you wish to embed. For example, the ID of the first tweet ever
-&lt;a href=&#34;http://twitter.com/jack/status/20&#34;&gt;http://twitter.com/jack/status/20&lt;/a&gt; is 20. Then, simply add the
-following script to the location where you want the tweet to show
-up. Make sure to replace 20 in the example to the actual tweet ID. The
-tweet will automatically embed below the script.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;http://inmate.ronhuang.org/tweet/20&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The script above will render the following tweet.&lt;/p&gt;
-
-&lt;p&gt;(You might not see the tweet if you are viewing from the feed.)&lt;/p&gt;
-
-&lt;p&gt;Hope you find this widget useful. The source code is available at &lt;a href=&#34;https://github.com/ronhuang/inmate&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Updated in 2015/12/28: this widget is no longer usable. Please refer to Embed a Single Tweet for similar feature.
+In my previous post, I needed to show a tweet. Though I could have embedded a picture of the tweet, I would really prefer a functional one, where the links, mentions, and hashtags are all linkified. But I wasn&amp;rsquo;t able to find any useful ones beside Blackbird Pie. Blackbird Pie was OK, but it requires users to manually generate the tweet and embed the generated HTML.</description>
     </item>
     
     <item>
@@ -403,40 +100,9 @@ tweet will automatically embed below the script.&lt;/p&gt;
       <pubDate>Sat, 02 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/02/after-april-fools-day/</guid>
-      <description>&lt;p&gt;Yesterday, I announced my latest research topic on Twitter and
-Facebook: Software Patterns of User Experience for World of Warcraft
-(SPUXWoW).&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Introducing Software Patterns of User Experience for World of Warcraft (SPUXWoW). http://j.hng.tw/lpgnb&lt;/p&gt;&amp;mdash; Ron Huang (@ronhuang) &lt;a href=&#34;https://twitter.com/ronhuang/status/53632515516284928&#34;&gt;April 1, 2011&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;However, instead of pointing to the actual research page, the link
-pointed to &lt;a href=&#34;http://youtu.be/oHg5SJYRHA0&#34;&gt;RickRoll&amp;rsquo;D&lt;/a&gt; on YouTube. As of today, there are a total of
-87 people who got rickroll&amp;rsquo;d by me. Thanks everyone for
-participating. Couldn&amp;rsquo;t have done it without you guys. :p&lt;/p&gt;
-
-&lt;p&gt;(Seriously, I am sorry for my immature prank. I will do my best to
-come up with something more sophisticated next year.)&lt;/p&gt;
-
-&lt;p&gt;Anyway, the following are some of the better pranks I enjoyed this year.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.omgubuntu.co.uk/2011/04/houston-we-have-a-problem-the-x-server-has-crashed/&#34;&gt;Houston, we have a problem – the X server has crashed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://goo.gl/maps/kH7J&#34;&gt;Narwhal outside Canonical&amp;rsquo;s London office&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/CNm8ZCJ7Fx8&#34;&gt;Top 5 Viral Pictures of 1911&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/RjbkAECbDBE&#34;&gt;Everybody Chromercise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/Bu927_ul_X0&#34;&gt;Introducing Gmail Motion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/intl/en/jobs/uslocations/mountain-view/autocompleter/index.html&#34;&gt;Google Hiring Autocompleters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/news/2011/04/http-1.2-released&#34;&gt;HTTP 1.2 Released with Improved Support for Hierarchies and Text-Menu Interfaces&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.virgin.com/travel/news/branson-buys-pluto-reinstates-as-planet/&#34;&gt;Richard Branson buys Pluto, reinstates it as a planet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.archlinux.org/news/the-canterbury-project/&#34;&gt;The Canterbury Project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.geforce.com/#/News/articles/voodoo-revived&#34;&gt;Introducing the 3dfx Voodoo 590&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://youtu.be/uiZNtTLAwz8&#34;&gt;StarCraft: Motion Overdrive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/game/dungeon/tomb-of-immortal-darkness&#34;&gt;Tomb of Immortal Darkness&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://googleresearch.blogspot.com/2011/04/ig-pay-atin-lay-oice-vay-earch-say.html&#34;&gt;Ig-pay Atin-lay Oice-vay Earch-say&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/en/forum/topic/2325684862&#34;&gt;World of Warcraft patch 4.1.11 preview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Yesterday, I announced my latest research topic on Twitter and Facebook: Software Patterns of User Experience for World of Warcraft (SPUXWoW).
+Introducing Software Patterns of User Experience for World of Warcraft (SPUXWoW). http://j.hng.tw/lpgnb
+&amp;mdash; Ron Huang (@ronhuang) April 1, 2011  However, instead of pointing to the actual research page, the link pointed to RickRoll&amp;rsquo;D on YouTube. As of today, there are a total of 87 people who got rickroll&amp;rsquo;d by me.</description>
     </item>
     
     <item>
@@ -445,27 +111,8 @@ come up with something more sophisticated next year.)&lt;/p&gt;
       <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/03/28/taiwan-friendly-wikipedia/</guid>
-      <description>&lt;p&gt;Although Wikipedia provides menu to switch from different Chinese
-variants, Wikipedia doesn&amp;rsquo;t seem to remember to the users&amp;rsquo;
-selection. I am tired of manually going through the menu and selecting
-Traditional Chinese (Taiwan) whenever I browse a new Wikipedia
-article. So I created &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Taiwan Friendly Wikipedia&lt;/a&gt;, a Google Chrome
-extension to automatically redirect to the Traditional Chinese
-(Taiwan) variant when reading Chinese articles.&lt;/p&gt;
-
-&lt;p&gt;Users can switch off the automatic redirection in the options. If
-disabled, users have to manually click the icon on the Ombibox to
-redirect to Traditional Chinese (Taiwan) variant article. The default
-is enabled (will automatically redirect.)&lt;/p&gt;
-
-&lt;p&gt;Screenshots:
-&lt;img src=&#34;https://ron.hng.tw/img/tfw-1.png&#34; alt=&#34;Screenshot&#34; title=&#34;Click on the icon to redirect&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/tfw-2.png&#34; alt=&#34;Screenshot&#34; title=&#34;Wikipedia in Traditional Chinese (Taiwan)&#34; /&gt;
-&lt;img src=&#34;https://ron.hng.tw/img/tfw-3.png&#34; alt=&#34;Screenshot&#34; title=&#34;Options page&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can install Taiwan Friendly Wikipedia at &lt;a href=&#34;https://chrome.google.com/extensions/detail/fmjelafedcbofponfkkifggbkpapkdob&#34;&gt;Chrome Web Store&lt;/a&gt;. The
-source code is available at &lt;a href=&#34;https://github.com/ronhuang/taiwan-friendly-wikipedia&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Although Wikipedia provides menu to switch from different Chinese variants, Wikipedia doesn&amp;rsquo;t seem to remember to the users&amp;rsquo; selection. I am tired of manually going through the menu and selecting Traditional Chinese (Taiwan) whenever I browse a new Wikipedia article. So I created Taiwan Friendly Wikipedia, a Google Chrome extension to automatically redirect to the Traditional Chinese (Taiwan) variant when reading Chinese articles.
+Users can switch off the automatic redirection in the options.</description>
     </item>
     
     <item>
@@ -474,12 +121,8 @@ source code is available at &lt;a href=&#34;https://github.com/ronhuang/taiwan-f
       <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/03/17/testing-facebook-comments/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2012/12/02: this post is no longer applicable.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The comment system in this page should be using the Facebook
-Comments. Let me know if you like the
-change. ☺&lt;/p&gt;
-</description>
+      <description>Updated in 2012/12/02: this post is no longer applicable.
+The comment system in this page should be using the Facebook Comments. Let me know if you like the change. ☺</description>
     </item>
     
     <item>
@@ -488,57 +131,10 @@ change. ☺&lt;/p&gt;
       <pubDate>Sat, 16 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2010/10/16/the-sorrows-of-young-hooman/</guid>
-      <description>&lt;p&gt;Just in case I face Hooman&amp;rsquo;s nasty dilemma in the future, I posted the
-solution to &lt;em&gt;The Sorrows of Young Hooman&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;( &lt;em&gt;Don’t Try This At Home, during our explanation to alert and educate
-children, teens and parents about the dangers of trained
-professionals.&lt;/em&gt; )&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M1 uses both C1 and C2 on F1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ----------------
-                         \----
-         ------------- C2     \-
-M1                C2&#39; )         )      F1
-         -------------    C1&#39; /-
-                         /----
-         ----------------     C1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M1 uses only C2 on F2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ------------- C2
-M1                C2&#39; )                F2
-         -------------
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M2 uses only C1 on F1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ------------- C1
-M2                C1&#39; )                F1
-         -------------
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M2 uses both C2 and C1 on F2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-plain&#34;&gt;         ----------------
-                         \----
-         ------------- C1     \-
-M2                C1&#39; )         )      F2
-         -------------    C2&#39; /-
-                         /----
-         ----------------     C2
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Just in case I face Hooman&amp;rsquo;s nasty dilemma in the future, I posted the solution to The Sorrows of Young Hooman.
+( Don’t Try This At Home, during our explanation to alert and educate children, teens and parents about the dangers of trained professionals. )
+ M1 uses both C1 and C2 on F1.
+---------------- \---- ------------- C2 \- M1 C2&#39; ) ) F1 ------------- C1&#39; /- /---- ---------------- C1  M1 uses only C2 on F2.</description>
     </item>
     
     <item>
@@ -547,31 +143,9 @@ M2                C1&#39; )         )      F2
       <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2010/07/22/twitter-user-names-with-less-than-two-characters/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2012/12/02: moved table to Google Docs.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Today I was curious if all the Twitter user names with less than two
-characters are already created. So I wrote a tiny script to check.&lt;/p&gt;
-
-&lt;p&gt;The result is: YES! All of them are already created. In fact, the last
-one, &lt;a href=&#34;https://twitter.com/lh&#34; title=&#34;luke hutchison&#34;&gt;lh&lt;/a&gt;, was just created today! What a coincidence. However, quite
-a few user names are suspended, and user name &lt;a href=&#34;https://twitter.com/me&#34;&gt;me&lt;/a&gt; also seems to be
-reserved. Maybe there is still chance to create one in the future?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Earliest creation date is Mar 21, 2006 09:02 PM by &lt;a href=&#34;https://twitter.com/ev&#34; title=&#34;Evan Williams&#34;&gt;ev&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Latest creation date is Jul 22, 2010 12:53 AM by &lt;a href=&#34;https://twitter.com/lh&#34; title=&#34;luke hutchison&#34;&gt;lh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Number of user names created in year 2010: 72&lt;/li&gt;
-&lt;li&gt;Number of user names created in year 2009: 161&lt;/li&gt;
-&lt;li&gt;Number of user names created in year 2008: 311&lt;/li&gt;
-&lt;li&gt;Number of user names created in year 2007: 687&lt;/li&gt;
-&lt;li&gt;Number of user names created in year 2006: 105&lt;/li&gt;
-&lt;li&gt;Number of user names suspended: 69&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&#39;100%&#39; height=&#39;300&#39; frameborder=&#39;0&#39;
-src=&#39;https://docs.google.com/spreadsheet/pub?key=0ApTWk-WsugKzdHBDakswWUNHM0ZYbmpqZFg4UHFGTWc&amp;output=html&amp;widget=true&#39;&gt;
-&lt;/iframe&gt;
-</description>
+      <description>Updated in 2012/12/02: moved table to Google Docs.
+Today I was curious if all the Twitter user names with less than two characters are already created. So I wrote a tiny script to check.
+The result is: YES! All of them are already created. In fact, the last one, lh, was just created today! What a coincidence. However, quite a few user names are suspended, and user name me also seems to be reserved.</description>
     </item>
     
     <item>
@@ -580,9 +154,7 @@ src=&#39;https://docs.google.com/spreadsheet/pub?key=0ApTWk-WsugKzdHBDakswWUNHM0
       <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2010/06/30/hello-world/</guid>
-      <description>&lt;p&gt;I have created over the years quite a few &amp;ldquo;Hello, World&amp;rdquo; post on
-various blog platforms. Hopefully this one will last longer…&lt;/p&gt;
-</description>
+      <description>I have created over the years quite a few &amp;ldquo;Hello, World&amp;rdquo; post on various blog platforms. Hopefully this one will last longer…</description>
     </item>
     
   </channel>

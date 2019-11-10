@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>N/A on Ron Huang</title>
+    <title>n/a on Ron Huang</title>
     <link>https://ron.hng.tw/tags/n/a/</link>
-    <description>Recent content in N/A on Ron Huang</description>
+    <description>Recent content in n/a on Ron Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Thu, 17 Mar 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ron.hng.tw/tags/n/a/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ron.hng.tw/tags/n/a/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Testing Facebook Comments</title>
@@ -16,12 +18,8 @@
       <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/03/17/testing-facebook-comments/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated in 2012/12/02: this post is no longer applicable.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The comment system in this page should be using the Facebook
-Comments. Let me know if you like the
-change. ☺&lt;/p&gt;
-</description>
+      <description>Updated in 2012/12/02: this post is no longer applicable.
+The comment system in this page should be using the Facebook Comments. Let me know if you like the change. ☺</description>
     </item>
     
   </channel>

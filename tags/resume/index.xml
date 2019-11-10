@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resume on Ron Huang</title>
+    <title>resume on Ron Huang</title>
     <link>https://ron.hng.tw/tags/resume/</link>
-    <description>Recent content in Resume on Ron Huang</description>
+    <description>Recent content in resume on Ron Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Sat, 23 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ron.hng.tw/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ron.hng.tw/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>New CV Page</title>
@@ -16,32 +18,8 @@
       <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ron.hng.tw/2011/04/23/new-cv-page/</guid>
-      <description>&lt;p&gt;I have updated my &lt;a href=&#34;https://ron.hng.tw/cv/&#34;&gt;CV&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;p&gt;Recently &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I saw an &lt;a href=&#34;http://css-tricks.com/examples/OnePageResume/&#34;&gt;awesome resume&lt;/a&gt; from &lt;a href=&#34;http://css-tricks.com/&#34;&gt;CSS-Tricks&lt;/a&gt;. Based on
-that resume, I created a new CV page of mine. My previous CV page only
-contained a link to the PDF version of my CV. I have taken most of the
-contents from the PDF version and populated into the HTML
-one. However, the link to the PDF is still preserved. So if you prefer
-reading PDF, please click &lt;a href=&#34;https://ron.hng.tw/cv/vitae.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another reason I have created this post is that I realized the keyword
-&lt;em&gt;resume&lt;/em&gt; is not available throughout my website. Google could not find
-any page with &lt;em&gt;&lt;a href=&#34;http://ronhuang.org/search/?cx=partner-pub-2284163765913634%3A9203988230&amp;amp;cof=FORID%3A10&amp;amp;ie=UTF-8&amp;amp;q=resume&#34;&gt;resume&lt;/a&gt;&lt;/em&gt;. Though resume is different from CV, I hope
-this post will better inform others about myself &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;C&amp;#39;thulhu has a resume, and a well designed one too.&lt;br&gt;http://css-tricks.com/examples/OnePageResume/&lt;/p&gt;&amp;mdash; Ron Huang (@ronhuang) &lt;a href=&#34;https://twitter.com/ronhuang/status/55571056257286145&#34;&gt;April 6, 2011&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:53c3985b8a62fe4497ff45e45737e881:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;Clearly, I have very limited knowledge on SEO.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:53c3985b8a62fe4497ff45e45737e881:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <description>I have updated my CV page.
+Recently 1, I saw an awesome resume from CSS-Tricks. Based on that resume, I created a new CV page of mine. My previous CV page only contained a link to the PDF version of my CV. I have taken most of the contents from the PDF version and populated into the HTML one. However, the link to the PDF is still preserved. So if you prefer reading PDF, please click here.</description>
     </item>
     
   </channel>
