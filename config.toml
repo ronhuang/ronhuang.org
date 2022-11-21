@@ -4,7 +4,6 @@ hasCJKLanguage = true
 title = "Ron Huang"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 disqusShortname = "ronhuang"
-googleAnalytics = "UA-7044154-12"
 paginate = 5
 theme = "casper"
 
@@ -13,18 +12,17 @@ theme = "casper"
   tag = "tags"
 
 [params]
-  description = "I am a software developer and Hewlett Packard Enterprise engineer living in Taiwan"
+  description = "I am a software developer from Taiwan"
   cover = "/img/cover.jpg"
   author = "Ron Huang"
   authorlocation = "Taipei, Taiwan"
   authorwebsite = "https://ron.hng.tw/"
-  bio = "Father, software developer, Hewlett Packard Enterprise engineer, and Star Wars fan."
+  bio = "Father, software developer, HP Inc. engineer, and Star Wars fan."
   logo = "/img/logo.png"
   githubName = "ronhuang"
   twitterName = "ronhuang"
   linkedinName = "ronhuang"
-  facebookAppId = "1160775493950960"
-  facebookAdmins = "581056929"
+  mastodonProfile = "https://g0v.social/@ronhuang"
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"

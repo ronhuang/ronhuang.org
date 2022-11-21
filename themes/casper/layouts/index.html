@@ -87,6 +87,10 @@
                 </a>
             &nbsp;
             {{end}}
+            {{ if .Site.Params.mastodonProfile }}
+                <a class="bloglogo" rel="me" href="{{ .Site.Params.mastodonProfile }}" target="_blank" />
+            &nbsp;
+            {{end}}
 
             <h1 class="page-title">{{ .Site.Title }}</h1>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
