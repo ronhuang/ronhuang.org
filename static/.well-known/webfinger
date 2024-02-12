@@ -1,9 +1,24 @@
 {
   "subject": "acct:ron@hng.tw",
+  "aliases": [
+    "https://ron.hng.tw/",
+    "https://g0v.social/@ronhuang",
+    "https://g0v.social/users/ronhuang"
+  ],
   "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://ron.hng.tw/"
+    },
     {
       "rel": "http://openid.net/specs/connect/1.0/issuer",
       "href": "https://home-gkoktd.zitadel.cloud"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://g0v.social/users/ronhuang"
     }
   ]
 }
