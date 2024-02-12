@@ -1,0 +1,9 @@
+{
+  "subject": "acct:ron@hng.tw",
+  "links": [
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://home-gkoktd.zitadel.cloud"
+    }
+  ]
+}
