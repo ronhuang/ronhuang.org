@@ -1,38 +1,74 @@
-baseurl = "https://ron.hng.tw/"
-languageCode = "zh-TW"
-hasCJKLanguage = true
+base_url = "https://ron.hng.tw/"
 title = "Ron Huang"
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
-disqusShortname = "ronhuang"
-paginate = 5
-theme = "casper"
+description = "Software engineer from Taiwan. Passionate about user experience and great design."
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+default_language = "en"
 
-[params]
-  description = "I am a software developer from Taiwan"
-  cover = "/img/cover.jpg"
-  author = "Ron Huang"
-  authorlocation = "Taipei, Taiwan"
-  authorwebsite = "https://ron.hng.tw/"
-  bio = "Father, software developer, HP Inc. engineer, and Star Wars fan."
-  logo = "/img/logo.png"
-  githubName = "ronhuang"
-  twitterName = "ronhuang"
-  linkedinName = "ronhuang"
-  mastodonProfile = "https://g0v.social/@ronhuang"
+theme = "tabi"
 
-[permalinks]
-  post = "/:year/:month/:day/:filename/"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+author = "Ron Huang"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+taxonomies = [
+  { name = "categories", paginate_by = 5, feed = true },
+  { name = "tags", paginate_by = 5, feed = true },
+]
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 2
+build_search_index = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+bottom_footnotes = true
+external_links_class = "external"
+insert_anchor_links = "left"
+
+[slugify]
+paths = "safe"
+taxonomies = "safe"
+anchors = "safe"
+
+[search]
+index_format = "elasticlunr_json"
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+
+[extra]
+email = "ron@hng.tw"
+github = "https://github.com/ronhuang"
+
+menu = [
+    { name = "post", url = "post" },
+    { name = "about", url = "about" },
+]
+
+skin = "indigo_ingot"
+
+remote_repository_url = "https://github.com/ronhuang/ronhuang.org"
+show_remote_source = true
+show_remote_changes = false
+
+favicon = "img/favicon.ico"
+
+fediverse_creator = { handle = "ronhuang", domain = "g0v.social" }
+
+copy_button = true
+
+socials = [
+    { name = "mastodon", url = "https://g0v.social/@ronhuang", icon = "mastodon" },
+    { name = "github", url = "https://github.com/ronhuang", icon = "github" },
+]
+
+copyright = "© $CURRENT_YEAR Ron Huang $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+
+invert_title_order = true
+show_reading_time = false
+show_previous_next_article_links = true
+
+[extra.analytics]
+service = "goatcounter"
+self_hosted_url = "https://stats.hng.tw"

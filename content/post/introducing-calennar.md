@@ -2,9 +2,11 @@
 title = "Introducing Calennar"
 description = "Introducing Calennar, seminar schedules in iCalendar format"
 date = "2011-05-08"
+path = "2011/05/08/introducing-calennar"
+
+[taxonomies]
 categories = ["projects"]
 tags = ["calendar", "calennar", "cs", "inmate", "nus", "seminar"]
-disqus_identifier = 298399847
 +++
 
 Introducing Calennar, seminar schedules in iCalendar format.

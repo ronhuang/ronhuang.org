@@ -2,6 +2,10 @@
 title = "My Primary Phones"
 description = "Phones I've used over the years"
 date = "2014-02-08"
+updated = "2015-12-29"
+path = "2014/02/08/my-primary-phones"
+
+[taxonomies]
 categories = ["personal"]
 +++
 

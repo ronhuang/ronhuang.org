@@ -2,9 +2,11 @@
 title = "After April Fools' Day"
 description = "Rickrolling on April Fools' Day"
 date = "2011-04-02"
+path = "2011/04/02/after-april-fools-day"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["2011", "april fools", "rickrolling", "spux", "wow"]
-disqus_identifier = 280996084
 +++
 
 Yesterday, I announced my latest research topic on Twitter and

@@ -2,9 +2,12 @@
 title = "Twitter user names with less than two characters"
 description = "List all Twitter user names with less than two characters"
 date = "2010-07-22"
+updated = "2012-12-02"
+path = "2010/07/22/twitter-user-names-with-less-than-two-characters"
+
+[taxonomies]
 categories = ["projects"]
 tags = ["twitter"]
-disqus_identifier = 120718690
 +++
 
 **Updated in 2012/12/02: moved table to Google Docs.**

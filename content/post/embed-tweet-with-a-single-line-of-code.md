@@ -2,9 +2,12 @@
 title = "Embed Tweet with a Single Line of Code"
 description = "Introducing Embed Tweet, a web widget to easily embed tweets in blogs"
 date = "2011-04-04"
+updated = "2015-12-28"
+path = "2011/04/04/embed-tweet-with-a-single-line-of-code"
+
+[taxonomies]
 categories = ["projects"]
 tags = ["blackbirdpy", "embed tweet", "javascript", "twitter", "widget"]
-disqus_identifier = 280995954
 +++
 
 **Updated in 2015/12/28: this widget is no longer usable. Please refer

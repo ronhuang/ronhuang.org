@@ -2,9 +2,11 @@
 title = "久違的中秋烤肉"
 description = "睽違三年的中秋烤肉又要回來了"
 date = "2011-08-31"
+path = "2011/08/31/midautumn-bbq-2011"
+
+[taxonomies]
 categories = ["projects"]
 tags = ["2011", "bbq", "midautumn", "中秋節", "烤肉"]
-disqus_identifier = 400970607
 +++
 
 睽違三年的中秋烤肉又要回來了，照慣例要邀請小寶的同事來烤肉。跟往年一樣，

@@ -1,7 +1,8 @@
 +++
 title = "About"
 date = "2012-09-27"
-comments = false
+updated = "2025-11-28"
+template = "info-page.html"
 +++
 
 I am Ron Huang, also known as Yih-Lun Huang or 黃翊倫. I am happily

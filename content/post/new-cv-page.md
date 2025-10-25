@@ -2,9 +2,11 @@
 title = "New CV Page"
 description = "Introducing a new CV page on my website, also mentioned about my resume"
 date = "2011-04-23"
+path = "2011/04/23/new-cv-page"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["cv", "resume"]
-disqus_identifier = 286506675
 +++
 
 I have updated my [CV](/cv/) page.

@@ -2,9 +2,11 @@
 title = "Taiwan Friendly Wikipedia"
 description = "Google Chrome extension to show Wikipedia pages in Traditional Chinese (Taiwan)"
 date = "2011-03-28"
+path = "2011/03/28/taiwan-friendly-wikipedia"
+
+[taxonomies]
 categories = ["projects"]
 tags = ["chrome", "extension", "taiwan", "traditional chinese", "wikipedia"]
-disqus_identifier = 280996128
 +++
 
 Although Wikipedia provides menu to switch from different Chinese

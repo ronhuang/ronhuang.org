@@ -2,9 +2,11 @@
 title = "New Website Design"
 description = "Talks about the various new features in my new website design"
 date = "2011-04-22"
+path = "2011/04/22/new-website-design"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["html5", "jekyll", "opensearch", "responsive web design", "website"]
-disqus_identifier = 285915879
 +++
 
 **Updated in 2015/12/28: this post is no longer applicable.**
