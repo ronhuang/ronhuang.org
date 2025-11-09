@@ -9,19 +9,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - name: Checkout
+      uses: actions/checkout@v4
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.59.1'
-
-    - name: Build
-      run: hugo
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./public
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.21.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
