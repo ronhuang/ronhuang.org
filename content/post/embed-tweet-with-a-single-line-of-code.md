@@ -13,7 +13,7 @@ tags = ["blackbirdpy", "embed tweet", "javascript", "twitter", "widget"]
 **Updated in 2015/12/28: this widget is no longer usable. Please refer
   to [Embed a Single Tweet] for similar feature.**
 
-In my previous [post]({{< relref "after-april-fools-day.md" >}}), I
+In my previous [post](@/post/after-april-fools-day.md), I
 needed to show a tweet. Though I could have embedded a picture of the
 tweet, I would really prefer a functional one, where the links,
 mentions, and hashtags are all linkified. But I wasn't able to find
