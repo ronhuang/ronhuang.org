@@ -42,8 +42,9 @@ email = "ron@hng.tw"
 github = "https://github.com/ronhuang"
 
 menu = [
-    { name = "post", url = "post" },
-    { name = "about", url = "about" },
+    { name = "blog", url = "post", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
 ]
 
 skin = "indigo_ingot"
