@@ -2,9 +2,12 @@
 title = "New Website Design"
 description = "Talks about the various new features in my new website design"
 date = "2011-04-22"
+updated = "2015-12-28"
+path = "2011/04/22/new-website-design"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["html5", "jekyll", "opensearch", "responsive web design", "website"]
-disqus_identifier = 285915879
 +++
 
 **Updated in 2015/12/28: this post is no longer applicable.**
@@ -45,6 +48,6 @@ Please let me know if you have any comments or suggestions. Thank you.
 [Grace]: http://grace.hng.tw/
 [DataTables]: http://www.datatables.net/
 [tablesorter]: http://tablesorter.com/
-[Twitter user names with less than two characters]: {{< relref "twitter-user-names-with-less-than-two-characters.md" >}}
+[Twitter user names with less than two characters]: @/post/twitter-user-names-with-less-than-two-characters.md
 [Google's 404 widget]: http://www.google.com/support/webmasters/bin/answer.py?answer=136085
 [Creative Commons Attribution-ShareAlike 3.0 Unported License]: http://creativecommons.org/licenses/by-sa/3.0/

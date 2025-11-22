@@ -2,6 +2,9 @@
 title = "First post from Windows Phone"
 description = "Change blog engine to Wordpress"
 date = "2013-01-26"
+path = "2013/01/26/first-post-from-windows-phone"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["blog engine", "windows phone"]
 +++

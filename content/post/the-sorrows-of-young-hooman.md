@@ -2,9 +2,11 @@
 title = "The Sorrows of Young Hooman"
 description = "How to solve Hooman's nasty dilemma"
 date = "2010-10-16"
+path = "2010/10/16/the-sorrows-of-young-hooman"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["fun", "science"]
-disqus_identifier = 156832628
 +++
 
 Just in case I face Hooman's nasty dilemma in the future, I posted the

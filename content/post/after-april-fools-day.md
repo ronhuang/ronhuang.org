@@ -2,16 +2,22 @@
 title = "After April Fools' Day"
 description = "Rickrolling on April Fools' Day"
 date = "2011-04-02"
+updated = "2025-11-09"
+path = "2011/04/02/after-april-fools-day"
+
+[taxonomies]
 categories = ["personal"]
 tags = ["2011", "april fools", "rickrolling", "spux", "wow"]
-disqus_identifier = 280996084
 +++
+
+**Updated in 2025/11/09: replace embedded tweet with [a copy][tweet] on my
+[tweetback] instance.**
 
 Yesterday, I announced my latest research topic on Twitter and
 Facebook: Software Patterns of User Experience for World of Warcraft
 (SPUXWoW).
 
-{{< tweet 53632515516284928 >}}
+[https://twitter.hng.tw/53632515516284928/][tweet]
 
 However, instead of pointing to the actual research page, the link
 pointed to [RickRoll'D] on YouTube. As of today, there are a total of
@@ -39,3 +45,5 @@ Anyway, the following are some of the better pranks I enjoyed this year.
 - [World of Warcraft patch 4.1.11 preview](http://us.battle.net/wow/en/forum/topic/2325684862)
 
 [RickRoll'D]: http://youtu.be/oHg5SJYRHA0
+[tweetback]: https://twitter.hng.tw/
+[tweet]: https://twitter.hng.tw/53632515516284928/
