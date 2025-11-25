@@ -1,0 +1,51 @@
+https://keybase.io/ronhuang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ron.hng.tw
+  * I am ronhuang (https://keybase.io/ronhuang) on keybase.
+  * I have a public key ASBw5iQb8xzBcJGhnbdhC5RI6tso0e8jD7SgSZDNz4x4dwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012070e6241bf31cc17091a19db7610b9448eadb28d1ef230fb4a04990cdcf8c78770a",
+            "host": "keybase.io",
+            "kid": "012070e6241bf31cc17091a19db7610b9448eadb28d1ef230fb4a04990cdcf8c78770a",
+            "uid": "544f2803da0714f64015910e5b1df419",
+            "username": "ronhuang"
+        },
+        "service": {
+            "hostname": "ron.hng.tw",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1453034145,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1453033824,
+        "hash": "f070b018a5a9da7fe8a46ffb6fbc8e21b31bddfae8cd44b923750c34dcf266932e220e21acf5ac57e961b2d8d3d3ec78a481d33e3623ca804351c3778af654b6",
+        "seqno": 350472
+    },
+    "prev": "3a8628b049a807411dcb7cd70eea92efe491a53f5a9f23af171e4600e38754c2",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcOYkG/McwXCRoZ23YQuUSOrbKNHvIw+0oEmQzc+MeHcKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzBlNjI0MWJmMzFjYzE3MDkxYTE5ZGI3NjEwYjk0NDhlYWRiMjhkMWVmMjMwZmI0YTA0OTkwY2RjZjhjNzg3NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzBlNjI0MWJmMzFjYzE3MDkxYTE5ZGI3NjEwYjk0NDhlYWRiMjhkMWVmMjMwZmI0YTA0OTkwY2RjZjhjNzg3NzBhIiwidWlkIjoiNTQ0ZjI4MDNkYTA3MTRmNjQwMTU5MTBlNWIxZGY0MTkiLCJ1c2VybmFtZSI6InJvbmh1YW5nIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyb24uaG5nLnR3IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuOCJ9LCJjdGltZSI6MTQ1MzAzNDE0NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDUzMDMzODI0LCJoYXNoIjoiZjA3MGIwMThhNWE5ZGE3ZmU4YTQ2ZmZiNmZiYzhlMjFiMzFiZGRmYWU4Y2Q0NGI5MjM3NTBjMzRkY2YyNjY5MzJlMjIwZTIxYWNmNWFjNTdlOTYxYjJkOGQzZDNlYzc4YTQ4MWQzM2UzNjIzY2E4MDQzNTFjMzc3OGFmNjU0YjYiLCJzZXFubyI6MzUwNDcyfSwicHJldiI6IjNhODYyOGIwNDlhODA3NDExZGNiN2NkNzBlZWE5MmVmZTQ5MWE1M2Y1YTlmMjNhZjE3MWU0NjAwZTM4NzU0YzIiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED7IjApjgIRPFNo+nUtxlVVK8LKbCDWAk43pclaB4FyiLcRiBNV2uiaPVIWFJY+oIRtPSeJG9UopNeZUGpfbB8JqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ronhuang
