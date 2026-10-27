@@ -1,0 +1,28 @@
+// Keep site-specific fixes outside the vendored theme, without another CSS request.
+@use '../../themes/tabi/sass/skins/indigo_ingot';
+
+// Use a distinct family so tabi's existing swap face cannot be selected as a
+// fallback for another weight. Slow first visits keep their initial font metrics.
+@font-face {
+    font-family: 'Inter Optional';
+    src: local('Inter'), url('../fonts/Inter4.woff2') format('woff2');
+    font-display: optional;
+}
+
+:root {
+    --sans-serif-font: 'Inter Optional', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 601px) {
+    #banner-container-home #image-container-home {
+        // Reserve the portrait's column before its intrinsic size is available.
+        flex: 0 0 11rem;
+        width: 11rem;
+    }
+}
+
+footer p a {
+    // Identify inline links without relying on color in either theme.
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}

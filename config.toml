@@ -5,6 +5,7 @@ description = "Software engineer from Taiwan. Passionate about user experience a
 default_language = "en"
 
 theme = "tabi"
+compile_sass = true
 
 generate_feeds = true
 feed_filenames = ["atom.xml"]
@@ -47,7 +48,7 @@ menu = [
     { name = "about", url = "about", trailing_slash = true },
 ]
 
-skin = "indigo_ingot"
+skin = "ron"
 
 remote_repository_url = "https://github.com/ronhuang/ronhuang.org"
 show_remote_source = true
