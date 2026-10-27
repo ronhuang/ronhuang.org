@@ -1,0 +1,15 @@
+{%- set rendered_content = "" -%}
+{%- if page -%}
+    {%- set rendered_content = page.content -%}
+{%- elif section -%}
+    {%- set rendered_content = section.content -%}
+{%- endif -%}
+
+{# Keep syntax CSS off pages without rendered code, including the homepage. #}
+{%- if config.markdown.highlighting.style == "class" and rendered_content is containing('class="giallo') -%}
+    {# Zola 0.22 generates these files after HTML rendering; do not hash them here. #}
+    <link id="giallo-light" data-syntax-theme="light" rel="stylesheet" href="{{ get_url(path='giallo-light.css') | safe }}" media="(prefers-color-scheme: light)" />
+    <link id="giallo-dark" data-syntax-theme="dark" rel="stylesheet" href="{{ get_url(path='giallo-dark.css') | safe }}" media="(prefers-color-scheme: dark)" />
+    {# Select the saved theme before the body renders; CSS media queries cover no-JS visits. #}
+    <script src="{{ get_url(path='js/syntaxTheme.js', cachebust=true) | safe }}"></script>
+{%- endif -%}

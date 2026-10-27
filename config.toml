@@ -19,12 +19,18 @@ taxonomies = [
 build_search_index = true
 
 [markdown]
-highlight_code = true
-highlight_theme = "css"
 smart_punctuation = true
 bottom_footnotes = true
 external_links_class = "external"
 insert_anchor_links = "left"
+
+[markdown.highlighting]
+# Let Giallo provide syntax colors without permitting inline styles in the CSP.
+style = "class"
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-frappe"
+# Tabi reads code-block filenames from <pre> and language labels from <code>.
+data_attr_position = "both"
 
 [slugify]
 paths = "safe"

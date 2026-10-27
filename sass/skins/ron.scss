@@ -26,3 +26,20 @@ footer p a {
     text-decoration: underline;
     text-underline-offset: 0.15em;
 }
+
+// Giallo needs line layout styles; its generated stylesheet owns all colors.
+.giallo-l {
+    display: inline-block;
+    min-height: 1lh;
+    width: 100%;
+}
+
+.giallo-ln {
+    display: inline-block;
+    min-width: 3ch;
+    margin-inline-end: 0.4em;
+    padding-inline: 0.4em;
+    text-align: end;
+    opacity: 0.8;
+    user-select: none;
+}
